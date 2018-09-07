@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0256c546-c991-4f85-8f15-514f9193dff1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/artifacts/SecondDemo_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/libraries/standard.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/SecondDemo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/src/application.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/Register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/datatable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/elfinder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/prettyPhoto.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/css/ui_custom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/addFiles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/arrow.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/bodyBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/breadcrumbArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/calActiveBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/chosenSelect.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/controlB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/currentArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/darkGreyCircle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/genBalance.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/horControlB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/iconsGroup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/leftTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/middleNavBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/navBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/navItemBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/number.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/numberBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/pagingBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/patterns/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/respNavBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/roundStats.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sideDropdown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sideGradient.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sidebarButtonSep.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sidebarButtons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sidebarPositiveArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sidebarSearch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/sidedd_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/stats.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/statsElementsBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/subNavBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/subNavBg_active.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/tPagination.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/titleBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/titleRowBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/backgrounds/topnavBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/big.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_hex.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_hsb_b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_hsb_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_hsb_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_indic.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_overlay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_rgb_b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_rgb_g.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_rgb_r.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_select.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/colorpicker_submit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_hex.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_hsb_b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_hsb_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_hsb_s.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_indic.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_rgb_b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_rgb_g.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_rgb_r.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/custom_submit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/select.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/select2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/colorPicker/slider.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/contentDivider.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/divider.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/fileManager/icons-big.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/fileManager/icons-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/fileManager/ql.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/fileManager/spinner.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/fileManager/toolbar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/checkbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/select_left.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/select_left_datatable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/select_right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/select_right_datatable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/spinnerBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/spinnerBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/spinnerTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/forms/spinnerUpDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/closeSelection.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/address-book-open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/address-book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/android.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/application-plus-black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/application-plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/application-split-tile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/application.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-circle-double.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-circle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-curve-090.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-curve-180.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-curve-270.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-curve.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-in-out.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-in.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/arrow-resize-045.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/auction-hammer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/baggage-cart-box.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/balloon-ellipsis.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/bank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/barcode-2d.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/battery-full.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/bell.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/binocular.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/block.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-access.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-excel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-flash-movie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-illustrator.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-number.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-pdf-text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-photoshop-image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/blue-document-powerpoint.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/book-brown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/book-open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/box-document.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/briefcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/calendar-day.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/calendar-list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/calendar-month.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/calendar-task.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/cards-address.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/category.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/chain.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/chart-pie-separate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/chart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/chevron-expand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/chevron.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/color-swatches.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/contrast.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/cross.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/currency.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/cursor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/database.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/databases.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/disc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/disk-return-black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-access.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-excel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-flash-movie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-pdf-text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-task.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-tree.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-word-text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/document-zipper.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/drive-disc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/edit-column.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/exclamation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/external.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/feed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/film.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/flask.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/game.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/grid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/guide.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/hammer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/hand-point-090.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/hand-point.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/hourglass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/image-crop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/image-resize-actual.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/image-resize.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/information.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/layer-resize.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/layer-vector.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/layers-ungroup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/layout-3-mix.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/layout-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/lifebuoy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/mail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/minus-circle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/money.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/monitor-window.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/monitor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/music-beam.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/node-select.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/notebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/paint-brush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/paint-can.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/palette.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/paper-clip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/pin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/present.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/projection-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/question.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/report-paper.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/ruler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/scissors.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/selection-input.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/shopping-basket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/sitemap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/speaker-volume.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/spectrum.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/store.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/switch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/television.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/thumb-up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/thumb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/tick.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/toolbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/trophy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/ui-color-picker-transparent.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/ui-slider-vertical-050.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/ui-slider.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/user-black-female.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/user-black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/user-silhouette-question.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/users.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/wand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/color/wrench-screwdriver.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/address.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/administrative-docs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/advertising.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/archives.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/attibutes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/bank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/basket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/bestseller.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/billing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/bookmark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/brainstorming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/business-contact.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/busy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/calendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/category.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/collaboration.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/comment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/communication.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/config.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/consulting.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/contact.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/cost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/credit-card.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/credit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/current-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/customers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/cv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/database.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/date.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/delicious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/document-library.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/donate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/drawings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/email.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/featured.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/feed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/finished-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/flag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/folder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/free-for-job.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/freelance.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/full-time.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/future-projects.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/graphic-design.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/hire-me.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/illustration.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/invoice.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/issue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/library.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/lightbulb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/limited-edition.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/logout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/milestone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/my-account.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/networking.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/old-versions.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/order-192.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/order.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/payment-card.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/pc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/pen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/photography.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/premium.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/print.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/process.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/product-193.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/product-design.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/product.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/project.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/publish.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/shipping.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/showreel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/sign-in.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/sign-out.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/sign-up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/sitemap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/special-offer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/statistics.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/suppliers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/tag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/ticket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/upcoming-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/16/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/address.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/administrative-docs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/advertising.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/archives.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/attibutes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/bank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/basket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/bestseller.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/billing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/bookmark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/brainstorming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/business-contact.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/busy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/calendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/category.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/collaboration.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/comment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/communication.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/config.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/consulting.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/contact.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/cost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/credit-card.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/credit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/current-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/customers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/cv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/database.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/date.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/delicious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/document-library.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/donate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/drawings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/email.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/featured.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/feed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/finished-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/flag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/folder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/free-for-job.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/freelance.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/full-time.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/future-projects.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/graphic-design.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/hire-me.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/illustration.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/invoice.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/issue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/library.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/lightbulb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/limited-edition.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/logout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/milestone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/my-account.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/networking.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/old-versions.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/order-149.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/order.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/payment-card.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/pc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/pen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/photography.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/premium.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/print.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/process.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/product-163.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/product-design.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/product.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/project.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/publish.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/shipping.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/showreel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/sign-in.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/sign-out.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/sign-up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/sitemap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/special-offer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/statistics.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/suppliers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/tag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/ticket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/upcoming-work.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/control/32/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dMessages.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dMoney.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dUsers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/abacus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/addressBook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/adminUser.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/adminUser2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/airplane.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/alarm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/alert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/alert2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/android.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/archive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/arrowDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/arrowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/arrowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/arrowUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/baloons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bandaid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/basket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/basket2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/battery.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/batteryFull.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bell.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bell2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bigBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/blackberry.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/block.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/blocks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bluetooth.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bluetooth2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bluray.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bookLarge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/books.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bright.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bubbles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bubbles2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/building.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/bullsEye.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/buzz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/calc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/camera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/camera2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/car.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cart2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cart3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cart4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cashRegister.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cassette.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chair.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chart8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chemical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/chrome.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/clipboard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cloud.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cloudDownload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cloudUpload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cog2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cog3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cog4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/companies.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/computer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/coverflow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/create.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/cut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dayCalendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/delicious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/denied.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dialog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/digg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/digg2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/doc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/docs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/download2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/download3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dribbble.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dribbble2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/drive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dropbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dropper.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/drupal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/dvd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/electricity.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/electroPlug.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/excelDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/exit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/expengine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/expose.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/fax.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/femaleContour.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/femaleSymbol.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/files.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/filmCamera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/filmStrip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/filmStrip2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/firefox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/flag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/flag2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/flagFinished.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/folder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/footprints.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/fountainPen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/frames.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/full.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/full2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/fullscreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/globe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/globe2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/gmaps.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/goBack.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/goFull.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/graph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/hd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/hd2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/hd3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/headphones.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/help.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/home2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/icecream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ichat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/image2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/imageList.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/images.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/images2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/imagesList.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/inbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/inbox2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/incoming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/info.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ipodClassic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ipodNano.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/joomla.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/key.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ladyPurse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/lamp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/laptop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/lastFM.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/lemonadeStand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/lightBulb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/like.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/link2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/linux.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/locked.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/locked2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/logoff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/macos.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/magicMouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/magnify.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/mail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/maleContour.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/maleSymbol.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/map.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/medicalCase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/megaphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/microphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/mightyMouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/mobile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/mobyPicture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/money.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/money2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/monitor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/monthCalendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/mouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/myspace.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/notebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/outgoing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/pacman.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/paintBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/pants.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/paperclip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/paypal2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/paypal3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/pdfDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/phone2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/phone3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/photos.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/piggyBank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/pin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/planeSuitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/play2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/plixi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/podium.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/postcard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/power.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/powerBattery.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ppDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/presentation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/priceTag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/priceTags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/printer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/record.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/recycle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/refresh2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/refresh3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/refresh4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/repeat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/robot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/rss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ruler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/ruler2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/runningMan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/safari.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/scanLabel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/sd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/sd2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/sd3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/settings2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/shirt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/shoppingBag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/shuffle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/signPost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/signal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/skype.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/smallBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/socks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/sound.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/speech.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/speech2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/stats.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/stop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/stopWatch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/strategy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/strategy2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/stumble.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/suitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/switcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/table.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/tag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/tags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/timer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/transfer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/trash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/travelSuitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/tree.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/trolly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/truck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/tumbler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/tv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/twitter2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/umbrella.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/underConstruction.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/unlocked.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/user2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/userComment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/users.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/users2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/vault.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/vcard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/view.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/vimeo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/vimeo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/walkingMan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/wifi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/wifi2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/windows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/wordDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/wordpress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/wordpress2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/youtube.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/zip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dark/zipFiles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/downloadTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/dropped.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/editTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/grown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/iconHome.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/abacus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/addressBook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/adminUser.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/adminUser2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/airplane.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/alarm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/alert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/alert2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/android.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/archive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/arrowDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/arrowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/arrowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/arrowUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/baloons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bandaid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/basket.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/basket2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/battery.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/batteryFull.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bell.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bell2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bigBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/blackberry.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/block.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/blocks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bluetooth.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bluetooth2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bluray.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/book.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bookLarge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/books.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bright.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bubbles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bubbles2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/building.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/bullsEye.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/buzz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/calc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/camera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/camera2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/car.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cart2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cart3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cart4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cashRegister.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cassette.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chair.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chart8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chemical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/chrome.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/clipboard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cloud.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cloudDownload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cloudUpload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cog2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cog3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cog4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/companies.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/computer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/coverflow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/create.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/cut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dayCalendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/delicious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/denied.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dialog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/digg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/digg2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/doc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/docs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/download2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/download3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dribbble.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dribbble2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/drive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dropbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dropper.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/drupal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/dvd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/electricity.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/electroPlug.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/excelDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/exit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/expengine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/expose.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/fax.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/femaleContour.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/femaleSymbol.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/files.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/filmCamera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/filmStrip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/filmStrip2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/firefox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/flag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/flag2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/flagFinished.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/folder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/footprints.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/fountainPen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/frames.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/full.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/full2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/fullscreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/globe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/globe2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/gmaps.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/goBack.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/goFull.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/graph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/hd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/hd2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/hd3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/headphones.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/help.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/home2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/icecream.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ichat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/image2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/imageList.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/images.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/images2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/imagesList.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/inbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/inbox2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/incoming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/info.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ipodClassic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ipodNano.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/joomla.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/key.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ladyPurse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/lamp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/laptop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/lastFM.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/lemonadeStand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/lightBulb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/like.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/link2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/linux.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/locked.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/locked2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/logoff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/macos.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/magicMouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/magnify.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/mail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/maleContour.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/maleSymbol.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/map.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/medicalCase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/megaphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/microphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/mightyMouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/mobile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/mobyPicture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/money.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/money2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/monitor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/monthCalendar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/mouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/myspace.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/notebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/outgoing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/pacman.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/paintBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/pants.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/paperclip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/paypal2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/paypal3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/pdfDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/phone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/phone2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/phone3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/photos.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/piggyBank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/pin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/planeSuitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/play2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/plixi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/podium.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/postcard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/power.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/powerBattery.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ppDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/presentation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/priceTag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/priceTags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/printer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/record.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/recycle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/refresh2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/refresh3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/refresh4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/repeat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/robot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/rss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ruler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/ruler2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/runningMan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/safari.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/scanLabel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/sd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/sd2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/sd3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/settings2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/shirt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/shoppingBag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/shuffle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/signPost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/signal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/skype.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/smallBrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/socks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/sound.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/speech.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/speech2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/stats.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/stop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/stopWatch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/strategy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/strategy2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/stumble.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/suitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/switcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/table.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/tag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/tags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/timer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/transfer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/trash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/travelSuitcase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/tree.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/trolly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/truck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/tumbler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/tv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/twitter2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/umbrella.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/underConstruction.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/unlocked.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/user2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/userComment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/users.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/users2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/vault.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/vcard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/view.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/vimeo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/vimeo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/walkingMan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/wifi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/wifi2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/windows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/wordDoc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/wordpress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/wordpress2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/youtube.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/zip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/light/zipFiles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/arrowB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/arrowG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/arrowR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/arrowlG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/plusB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/plusG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/plusR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/pluslG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/roundtipB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/roundtipG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/roundtipR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/roundtiplG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/tipB.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/tipG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/tipR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/lists/tiplG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/middlenav/files.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/middlenav/messages.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/middlenav/orders.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/middlenav/users.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/notifications/accept.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/notifications/error.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/notifications/exclamation.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/notifications/information.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/orderStatus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/pEmail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/pSkype.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/prevnext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/printTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/sPlus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/sort.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/sortDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/sortUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/tableArrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/taskDone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/taskPending.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/taskProgress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/contactAdmin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/help.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/logout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/mainWebsite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/messages.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/profile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/register.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/subAdd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/subInbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/subOutbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/subTrash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/topnav/tasks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/update.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/updateDone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/updateNotice.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/updateWarning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/uploader/deleteFile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/uploader/error.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/uploader/throbber.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/icons/uploader/uploaded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/img.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/datePickerArrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_flat_75_ffffff_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_glass_65_ffffff_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_glass_75_dadada_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_222222_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_454545_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_888888_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_cd0a0a_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/jquery_ui/ui-icons_dcdcdc_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/leftArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loaders/loader9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/loginLogo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/negArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/pay-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/posArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/btnNext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/contentPattern.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/default_thumbnail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/dark_square/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/default_thumb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/sprite_next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/sprite_prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/sprite_x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/default/sprite_y.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/btnNext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/facebook/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_rounded/default_thumbnail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_rounded/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_rounded/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_square/btnNext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_square/loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/prettyPhoto/light_square/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/rightArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sadEmo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/searchBtn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/searchSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/separator.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sidebarNeg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sidebarPos.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sidebarSearchBtn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sidebarSep.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/sidebarZero.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/subArrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/subArrowStats.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/subArrowV.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/subIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/tipsy.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/topnavDivider.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/addBasic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/blueBtn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/blueMediumBar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/blueWidgetBtn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/contentProgressBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/greenMediumBar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/loginbg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/numDataBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/orangeMediumBar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/progressOverlay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/progress_container.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/purpleWidgetBtn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/sliderBg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/sliderOverlay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/sliderOverlayVert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/usualButtons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/ui/widgetButtons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/userPic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/wysiwyg/buttons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/wysiwyg/toolbar.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/images/zero.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/bar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/chart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/hBar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/updating.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/custom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/jquery-1.8.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/jquery-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/calendar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/jquery.flot.orderBars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/jquery.flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/jquery.flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/charts/jquery.sparkline.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/elfinder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/autogrowtextarea.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/chosen.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.cleditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.dualListBox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.inputlimiter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.maskedinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.tagsinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.validationEngine-en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/jquery.validationEngine.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/forms/uniform.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/spinner/jquery.mousewheel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/spinner/ui.spinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/tables/datatable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/tables/resizable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/tables/tablesort.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.breadcrumbs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.collapsible.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.colorpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.jgrowl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.prettyPhoto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.progress.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.sourcerer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.timeentry.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/ui/jquery.tipsy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/uploader/jquery.plupload.queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/uploader/plupload.html4.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/uploader/plupload.html5.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/uploader/plupload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/wizard/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/wizard/jquery.form.wizard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/plugins/wizard/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Login.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Register.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/commons-logging.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/fastjson-1.1.34.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/jstl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/mybatis-3.4.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/mybatis-spring-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/mysql-connector-java-5.1.38-bin.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/standard.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/member.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/php/connector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/php/elFinder.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/php/search.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/php/upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/分享财富.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/团队信息记录.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/我的团队.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/我的资料.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/我的钱包.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/接受帮助记录.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/提供帮助所得利息.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/提供帮助记录.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/收获财富.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/经理奖钱包记录.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/门票管理.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/index.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../SecondDemo/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="516" column="186" lean-forward="false" selection-start-line="516" selection-start-column="186" selection-end-line="516" selection-end-column="192" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/Register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="收获财富.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/收获财富.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="我的团队.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/我的团队.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.8.2.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/jquery-1.8.2.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SecondDemo" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Register.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/Register.html" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Login.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/application.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="471" />
+    <option name="y" value="152" />
+    <option name="width" value="1400" />
+    <option name="height" value="766" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SecondDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SecondDemo" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SecondDemo\web\WEB-INF\images\ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SecondDemo\web\WEB-INF\js" />
+      <recent name="D:\SecondDemo\web\WEB-INF" />
+      <recent name="D:\SecondDemo\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 7.0.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="SecondDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SecondDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0256c546-c991-4f85-8f15-514f9193dff1" name="Default" comment="" />
+      <created>1536302372280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536302372280</updated>
+      <workItem from="1536302374745" duration="7465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目整合git" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目整合git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/charts/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="516" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/js/jquery-1.8.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/收获财富.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/我的团队.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="516" column="186" lean-forward="false" selection-start-line="516" selection-start-column="186" selection-end-line="516" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
