@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dh.Dao.AdminDao">
+    <select id="login" parameterType="String" resultType="Admin">
+        select admin,password from manager where admin=#{arg0} and password=#{arg1};
+    </select>
+
+    <insert id="adminRelease" parameterType="Recruit">
+        insert into recruit value(#{rid},#{title},#{company},#{adminname},#{usermessage},#{recruitdate});
+    </insert>
+
+    <select id="findAllremuse" resultType="remuse">
+select * from remuse;
+    </select>
+
+    <select id="findremusebyid" parameterType="int" resultType="remuse">
+        select * from remuse where reid=#{arg0};
+    </select>
+
+    <select id="findUserbyname" parameterType="String" resultType="User">
+        select * from user where username=#{arg0};
+    </select>
+
+    <insert id="addemployee" parameterType="employee">
+        insert into employee values(#{eid},#{ename},#{did},#{pay},#{rewards},#{date},#{pid},#{estruts});
+    </insert>
+
+    <delete id="deleteremuse" parameterType="int">
+        delete from remuse where reid=#{arg0};
+    </delete>
+
+    <select id="selectCount" resultType="int">
+        select count(1) from recruit;
+    </select>
+
+    <update id="updateRemuseStruts" parameterType="int">
+        update remuse set rstruts=#{arg0};
+    </update>
+</mapper>
