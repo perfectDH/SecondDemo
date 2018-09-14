@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -136,43 +137,11 @@
 
     <!-- Left navigation -->
     <ul id="menu" class="nav">
-        <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
+        <li class="dash"><a href="index.html" title="" class=username"active"><span>首页</span></a></li>
 
-        <li class="charts"><a href="WEB-INF/我的资料.html" title="" class="exp"><span>账户管理</span></a>
-            <ul class="sub">
-                <li><a href="#" title="">激活码管理</a></li>
-                <li><a href="WEB-INF/门票管理.html" title="">门票券管理</a></li>
-                <li><a href="WEB-INF/我的团队.html" title="">伞下的成员</a></li>
-                <li><a href="#" title="">注册下线会员</a></li>
-                <li class="last"><a href="#" title="">注销登录账号</a></li>
-            </ul>
-        </li>
-        <li class="forms"><a href="#" title="" class="exp"><span>交易记录</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="WEB-INF/提供帮助记录.html" title="">提供帮助记录</a></li>
-                <li><a href="WEB-INF/接受帮助记录.html" title="">接受帮助记录</a></li>
-                <li><a href="WEB-INF/团队信息记录.html" title="">团队信息记录</a></li>
-                <li><a href="WEB-INF/提供帮助所得利息.html" title="">提供帮助所得利息</a></li>
-                <li class="last"><a href="WEB-INF/经理奖钱包记录.html" title="">经理奖钱包记录</a></li>
-            </ul>
-        </li>
-        <li class="ui"><a href="#" title="" class="exp"><span>我的钱包</span></a>
-            <ul class="sub">
-                <li><a href="WEB-INF/我的钱包.html" title="">资产：￥10000</a></li>
-                <li><a href="WEB-INF/我的钱包.html" title="">经理：￥1700</a></li>
-                <li><a href="WEB-INF/我的钱包.html" title="">推荐：￥150</a></li>
-                <li class="last"><a href="WEB-INF/我的钱包.html" title="">积分：0分</a></li>
-            </ul>
-        </li>
-        <li class="tables"><a href="WEB-INF/我的资料.html" title="" class="exp"><span>个人档案</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="WEB-INF/我的资料.html" title="">ID号：1</a></li>
-                <li><a href="WEB-INF/我的资料.html" title="">级别：Lv1</a></li>
-                <li><a href="WEB-INF/我的资料.html" title="">姓名：华远网络</a></li>
-                <li class="last"><a href="WEB-INF/我的资料.html" title="">手机：18200000000</a></li>
-            </ul>
-        </li>
-        <li class="widgets"><a href="#" title="" class="exp"><span>拆包大厅</span><strong></strong></a></li>
+        <li class="charts"><a href="requestremuse.action?username=${sessionScope.user.username}" title="" class="exp"><span>简历回馈</span></a>
+
+
     </ul>
 </div>
 
@@ -183,7 +152,9 @@
     <!-- Top fixed navigation -->
     <div class="topNav">
         <div class="wrapper">
-            <div class="welcome"><a href="#" title=""><img src="images/userPic.png" alt=""/></a><span>你好${sessionScope.user.username}</span></div>
+            <div class="welcome"><a href="#" title=""><img src="images/userPic.png"
+                                                           alt=""/></a><span>你好${sessionScope.user.username}</span>
+            </div>
             <div class="userNav">
                 <ul>
                     <li><a href="#" title=""><img src="images/icons/topnav/profile.png" alt=""/><span>个人中心</span></a>
@@ -316,30 +287,33 @@
 
                 </div>
                 <c:forEach items="${sessionScope.recruitList}" var="list">
-                <div class="newOrder">
-                    <div class="userRow">
-                        <a href="#" title=""><img src="images/user.png" alt="" class="floatL"/></a>
-                        <ul class="leftList">
-                            <li><a href="#" title=""><strong>发布者:${list.adminname}</strong></a></li>
-                            <li>发布时间：${list.recruitdate} 最新更新时间：2016-09-25 13:51:40</li>
-                            <li>标题内容：${list.title}</li>
-                            <li>招聘简介：${list.usermessage}</li>
+                    <div class="newOrder">
+                        <div class="userRow">
+                            <a href="#" title=""><img src="images/user.png" alt="" class="floatL"/></a>
+                            <ul class="leftList">
+                                <li><a href="#" title=""><strong>发布者:${list.adminname}</strong></a></li>
+                                <li>发布时间：<fmt:formatDate value='${list.recruitdate}' pattern='yyyy-MM-dd HH:mm:ss'/></li>
+                                <%--<li> 最新更新时间：<fmt:formatDate value='${list.update}' pattern='yyyy-MM-dd HH:mm:ss'/></li>--%>
+                                <li>标题内容：${list.title}</li>
+                                <li>公司地址：${list.address}</li>
+                                <li>招聘简介：${list.usermessage}</li>
 
-                        </ul>
+                            </ul>
 
-                        <div class="clear"></div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="cLine"></div>
+
+
+                        <div class="cLine"></div>
+                        <div class="totalAmount">
+                            <div class="num" style="margin: 0px 8px 0 0;"><a
+                                    href="/interview.action?rid=${list.rid}&uid=${sessionScope.user.uid}"
+                                    class="blueNum">申请面试</a></div>
+                            <div class="clear"></div>
+                        </div>
                     </div>
-
-                    <div class="cLine"></div>
-
-
-
-                    <div class="cLine"></div>
-                    <div class="totalAmount">
-                        <div class="num" style="margin: 0px 8px 0 0;"><a href="/interview.action?rid=${list.rid}&uid=${sessionScope.user.uid}" class="blueNum">申请面试</a></div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
                 </c:forEach>
 
             </div>

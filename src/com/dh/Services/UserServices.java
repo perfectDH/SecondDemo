@@ -21,4 +21,5 @@ public interface UserServices {
     User findUserbyid(Integer uid);
 
 
+    List<remuse> findRemusebuName(String username);
 }

@@ -56,4 +56,9 @@ public class AdminServicesIml implements AdminServices {
     public void updateRemuseStruts(Integer id) {
         adminDao.updateRemuseStruts(id);
     }
+
+    @Override
+    public List<employee> selectEmployee() {
+        return adminDao.selectEmployee();
+    }
 }

@@ -1,3 +1,13 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: ASUS
+  Date: 2018/9/10
+  Time: 14:24
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -129,41 +139,9 @@
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
 
-        <li class="charts"><a href="我的资料.html" title="" class="exp"><span>账户管理</span></a>
-            <ul class="sub">
-                <li><a href="#" title="">激活码管理</a></li>
-                <li><a href="门票管理.html" title="">门票券管理</a></li>
-                <li><a href="我的团队.html" title="">伞下的成员</a></li>
-                <li><a href="#" title="">注册下线会员</a></li>
-                <li class="last"><a href="#" title="">注销登录账号</a></li>
-            </ul>
-        </li>
-        <li class="forms"><a href="#" title="" class="exp"><span>交易记录</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="提供帮助记录.html" title="">提供帮助记录</a></li>
-                <li><a href="接受帮助记录.html" title="">接受帮助记录</a></li>
-                <li><a href="团队信息记录.html" title="">团队信息记录</a></li>
-                <li><a href="提供帮助所得利息.html" title="">提供帮助所得利息</a></li>
-                <li class="last"><a href="经理奖钱包记录.html" title="">经理奖钱包记录</a></li>
-            </ul>
-        </li>
-        <li class="ui"><a href="#" title="" class="exp"><span>我的钱包</span></a>
-            <ul class="sub">
-                <li><a href="我的钱包.html" title="">资产：￥10000</a></li>
-                <li><a href="我的钱包.html" title="">经理：￥1700</a></li>
-                <li><a href="我的钱包.html" title="">推荐：￥150</a></li>
-                <li class="last"><a href="我的钱包.html" title="">积分：0分</a></li>
-            </ul>
-        </li>
-        <li class="tables"><a href="我的资料.html" title="" class="exp"><span>个人档案</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="我的资料.html" title="">ID号：1</a></li>
-                <li><a href="我的资料.html" title="">级别：Lv1</a></li>
-                <li><a href="我的资料.html" title="">姓名：华远网络</a></li>
-                <li class="last"><a href="我的资料.html" title="">手机：18200000000</a></li>
-            </ul>
-        </li>
-        <li class="widgets"><a href="#" title="" class="exp"><span>拆包大厅</span><strong></strong></a></li>
+        <li class="charts"><a href="requestremuse.action?id=${sessionScope.user.username}" title="" class="exp"><span>简历回馈</span></a>
+
+
     </ul>
 </div>
 
@@ -174,7 +152,9 @@
     <!-- Top fixed navigation -->
     <div class="topNav">
         <div class="wrapper">
-            <div class="welcome"><a href="#" title=""><img src="images/userPic.png" alt=""/></a><span>你好。主人</span></div>
+            <div class="welcome"><a href="#" title=""><img src="images/userPic.png"
+                                                           alt=""/></a><span>你好${sessionScope.user.username}</span>
+            </div>
             <div class="userNav">
                 <ul>
                     <li><a href="#" title=""><img src="images/icons/topnav/profile.png" alt=""/><span>个人中心</span></a>
@@ -298,20 +278,34 @@
                 </div>
 
                 <!-- Purchase info widget -->
-                </div>
-                <!-- Purchase info widget -->
-                <div class="widget">
-                    <div class="title">
-                        <img src="images/icons/dark/money.png" alt="" class="titleIcon"/>
-                        <h6>最新的招聘信息</h6>
+            </div>
+            <!-- Purchase info widget -->
+            <div class="widget">
+                <div class="title">
+                    <img src="images/icons/dark/money.png" alt="" class="titleIcon"/>
+                    <h6>最新的简历回馈</h6>
 
-                    </div>
+                </div>
+                <c:forEach items="${sessionScope.listremuse}" var="list">
                     <div class="newOrder">
                         <div class="userRow">
                             <a href="#" title=""><img src="images/user.png" alt="" class="floatL"/></a>
                             <ul class="leftList">
-                                <li><a href="#" title=""><strong>发布者:</strong></a></li>
-                                <li>发布时间：2016-09-25 13:51:02 最新更新时间：2016-09-25 13:51:40</li>
+                                <li><a href="#" title=""><strong>发布者:${list.adminname}</strong></a></li>
+
+                                <li>面试结果：
+                                        <c:if test=" ${list.title}==0">
+                                            未被批阅
+                                        </c:if>
+                                    <c:if test=" ${list.title}==1">
+                                        面试成功
+                                    </c:if>
+                                       </li>
+                                <%--<li>发布时间：<fmt:formatDate value='${list.recruitdate}' pattern='yyyy-MM-dd HH:mm:ss'/></li>--%>
+                                    <%--&lt;%&ndash;<li> 最新更新时间：<fmt:formatDate value='${list.update}' pattern='yyyy-MM-dd HH:mm:ss'/></li>&ndash;%&gt;--%>
+                                <%--<li>公司地址：${list.address}</li>--%>
+                                <%--<li>招聘简介：${list.usermessage}</li>--%>
+
                             </ul>
 
                             <div class="clear"></div>
@@ -320,29 +314,27 @@
                         <div class="cLine"></div>
 
 
-
                         <div class="cLine"></div>
                         <div class="totalAmount">
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">留言</a></div>
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">查看详细信息</a></div>
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">给Ta评价</a></div>
-                            <div class="clear"></div>
+
                         </div>
                     </div>
-                </div>
-                <div class="clear"></div>
+                </c:forEach>
 
             </div>
-
             <div class="clear"></div>
-        </div>
-    </div>
 
-    <!-- Footer line -->
-    <div id="footer">
-        <div class="wrapper">Copyright © 2016 华远软件官方演示站点-本站点只提供演示版权所有 <a href="#" target="_blank" title="拆包大厅">拆包大厅</a>
-            | <a href="#" target="_blank" title="平台动态">平台动态</a> | <a href="#" target="_blank">投诉及建议</a></div>
+        </div>
+
+        <div class="clear"></div>
     </div>
+</div>
+
+<!-- Footer line -->
+<div id="footer">
+    <div class="wrapper">Copyright © 2016 华远软件官方演示站点-本站点只提供演示版权所有 <a href="#" target="_blank" title="拆包大厅">拆包大厅</a>
+        | <a href="#" target="_blank" title="平台动态">平台动态</a> | <a href="#" target="_blank">投诉及建议</a></div>
+</div>
 
 </div>
 

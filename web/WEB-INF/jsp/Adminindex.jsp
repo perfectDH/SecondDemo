@@ -111,6 +111,7 @@
     <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  -->
     <script type="text/javascript">
         $(function () {
+
             $("#imgbtn").click(function () {
                 //当图片按钮被点击时，使用ajax查询最新的简历申请.
 
@@ -126,7 +127,7 @@
                                     "<div> <span> 面试者:" + item.username + "</span></div>" +
                                     "<div> <span>应聘岗位:" + item.position + "</span></div>" +
                                     "<div> <span>期望薪资:" + item.pay + "</span></div>" +
-                                    "<div class='remusebtn'><input type='button' value='同意'  name='1' onclick='agree("+item.reid+")'><input type='button' value='拒绝' name='0'  onclick='noargee("+item.reid+")'></div>" +
+                                    "<div class='remusebtn'><input type='button' value='同意'  name='1' onclick='agree(" + item.reid + ")'><input type='button' value='拒绝' name='0'  onclick='noargee(" + item.reid + ")'></div>" +
                                     " <div class='clear'></div>" +
                                     "</div>");
 
@@ -139,27 +140,51 @@
 
             });
 
+            //新增员工的ajax请求
+            $("#add").click(function () {
+                $.ajax({
+                    url: "selectemplo.action",
+                    type: "post",
+                    dataType: "json",
+                    success: function (data) { //
+                        // $("#add").empty();
+                        $.each(data, function (idx, item) {
+                            var div = $("<div class='wUserInfo'>" +
+                                "<a href='#' title='' class='wUserPic'><img src='images/user.png' alt=''/></a>" +
+                                "<ul class='leftList'>" +
+                                " <li><a href='#' title=''><strong>" + item.ename + "</strong></a></li>" +
+                                "<li><a href='#' title=''>" + item.date + "</a></li>" +
+                                "</ul>" +
+                                " <div class='clear'></div>" +
+                                " </div>");
+                            $("#add").append(div);
+
+                        });
+                    }
+                });
+            });
 
 
-            //
-
+            $("#add").trigger("click");
             $("#imgbtn").trigger("click");
 
         });
+
         function agree(reid) {
             $.ajax({
-                url:"addemplyee.action",
+                url: "addemplyee.action",
                 type: "post",
                 dataType: "text",
-                data:{
-                    id:reid
+                data: {
+                    id: reid
                 },
-                success:function(){
+                success: function () {
                     $("#imgbtn").trigger("click");
                 }
             });
         }
-        function noargee(reid){
+
+        function noargee(reid) {
 
         }
 
@@ -378,6 +403,9 @@
                                     薪资标准:<input type="text" name="pay"/>
                                 </div>
                                 <div class="zhaopin">
+                                    公司地址:<input type="text" name="address"/>
+                                </div>
+                                <div class="zhaopin">
                                     任职需求：<textarea name="usermessage">
                         </textarea>
                                 </div>
@@ -448,24 +476,11 @@
             <div class="oneTwo">
                 <!-- New users widget -->
                 <div class="widget">
-                    <div class="title"><img src="images/icons/dark/add.png" alt="" class="titleIcon"/><h6>新增员工</h6>
+                    <div class="title"><img src="images/icons/dark/add.png" alt="" class="titleIcon" id="add"/><h6>
+                        新增员工</h6>
                     </div>
 
 
-                    <div class="wUserInfo">
-                        <a href="#" title="" class="wUserPic"><img src="images/user.png" alt=""/></a>
-                        <ul class="leftList">
-                            <li><a href="#" title=""><strong>张三</strong></a></li>
-                            <li><a href="#" title="">eugene@163.com</a></li>
-                        </ul>
-                        <ul class="rightList">
-                            <li><a href="#" class="green"><strong>$12,248.21</strong></a></li>
-                            <li><a href="#" class="red">12 周期</a></li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="cLine"></div>
                 </div>
 
                 <!-- Latest update widget -->

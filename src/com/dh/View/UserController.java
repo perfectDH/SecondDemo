@@ -67,4 +67,15 @@ public class UserController {
         return "UserMenu";
     }
 
+    //用户的简历回馈信息
+    @RequestMapping("/requestremuse.action")
+    public String requestremuse(String  username,HttpSession session){
+        //根据当前用户的姓名查询所有有关他的面试信息回馈
+        List<remuse> list=userServices.findRemusebuName(username);
+        session.setAttribute("listremuse",list);
+
+        return "userRequest";
+    }
+
+
 }

@@ -1,6 +1,7 @@
 package com.dh.JavaBean;
 
 import java.util.Date;
+
 //招聘表
 public class Recruit {
     private Integer rid;
@@ -14,7 +15,18 @@ public class Recruit {
     //薪资安排
     private double pay;
 
+    //面试所在地
+    private String address;
+
     public Recruit() {
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public double getPay() {
@@ -83,6 +95,7 @@ public class Recruit {
                 ", usermessage='" + usermessage + '\'' +
                 ", recruitdate=" + recruitdate +
                 ", pay=" + pay +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

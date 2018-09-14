@@ -26,4 +26,6 @@ public interface AdminDao {
     Integer selectCount();
 
     void updateRemuseStruts(Integer id);
+
+    List<employee> selectEmployee();
 }

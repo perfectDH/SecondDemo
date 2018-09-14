@@ -81,5 +81,14 @@ public class AdminController {
         return "";
     }
 
+    //查找新增员工
+    @ResponseBody
+    @RequestMapping("/selectemplo.action")
+    public String selectEmployee(){
+        List<employee> emplolist=adminServices.selectEmployee();
+        String alist = JSONArray.toJSONString(emplolist);
+        return alist;
+    }
+
 
 }

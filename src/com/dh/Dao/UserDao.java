@@ -20,4 +20,6 @@ public interface UserDao {
     User findUserbyid(Integer uid);
 
     Integer selectCount();
+
+    List<remuse> findRemusebuName(String username);
 }

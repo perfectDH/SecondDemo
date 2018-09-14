@@ -42,5 +42,11 @@ public class UserSevicesIml implements UserServices {
         return userDao.findUserbyid(uid);
     }
 
+    @Override
+    public List<remuse> findRemusebuName(String username) {
+
+        return userDao.findRemusebuName(username);
+    }
+
 
 }

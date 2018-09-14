@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-<title>收获财富</title>
+<title>分享财富</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -92,7 +92,7 @@
     
     <!-- Left navigation -->
     <ul id="menu" class="nav">
-        <li class="dash"><a href="../index.html" title="" class="active"><span>首页</span></a></li>
+        <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
         <li class="charts"><a href="我的资料.html" title="" class="exp"><span>账户管理</span></a>
           <ul class="sub">
               <li><a href="#" title="">激活码管理</a></li>
@@ -265,7 +265,7 @@
 
 
 								<div class="widget">
-                    <div class="title"><img src="images/icons/dark/stats.png" alt="" class="titleIcon"><h6>收获财富</h6></div>
+                    <div class="title"><img src="images/icons/dark/stats.png" alt="" class="titleIcon"><h6>分享财富</h6></div>
 													<form id="validate" class="form" method="post" action="">
 									        	<fieldset>
 															<div class="formRow">
@@ -280,28 +280,21 @@
 					                    </div>
 									        		
 					                    <div class="formRow">
-					                        <label>选择钱包：<span class="req">*</span></label>
-					                        <div class="formRight">
-																		<select name="selectReq" id="selectReq" class="validate[required]" style="opacity: 0;">
-		                                    <option value="1">财富钱包 ( ￥10000 )</option>
-		                                    <option value="2">经理钱包 ( ￥ 1700 )</option>
-		                                    <option value="3">推荐钱包 ( ￥150 )</option>
-		                                </select>
-		                                 <div class="clear"></div>
-		                                <p>请选择钱包类型，默认为财富钱包余额。</p>
-					                        </div>
-					                        
-					                        <div class="clear"></div>
-																	
+					                        <label>门票编号：<span class="req">*</span></label>
+					                        <div class="formRight"><input type="text" class="validate[required]" name="req" id="req">剩余可用门票9张→点击这里获得门票←</div><div class="clear"></div>
 					                    </div>
 					                    <div class="formRow">
-					                        <label>安全密码：<span class="req">*</span></label>
-					                        <div class="formRight"><input type="text" class="validate[required]" name="password1" id="password1"placeholder="请输入安全密码">提示：在非私人电脑上离开时请及时退出账号。</div><div class="clear"></div>
+					                        <label>财富拆分：<span class="req">*</span></label>
+					                        <div class="formRight"><input type="text" class="validate[required]" name="password1" id="password1">提供10000以上才可拆分，最多可分5单。</div><div class="clear"></div>
 					                    </div>
 					                    <div class="formRow">
-					                        <label>收益金额：<span class="req">*</span></label>
-					                        <div class="formRight"><input type="text" class="validate[required,maxSize[6]]" value="" name="maxValid" id="maxValid"placeholder="按说明输入金额">请输入1000-20000, 且为1000的倍数；<br>
-申请最低金额：￥100；<br>
+					                        <label>排队天数：<span class="req">*</span></label>
+					                        <div class="formRight"><input type="text" class="validate[required,minSize[6]]" name="minValid" id="minValid">排队最高10天，默认为随机天数匹配。</div><div class="clear"></div>
+					                    </div>
+					                    <div class="formRow">
+					                        <label>分享金额：<span class="req">*</span></label>
+					                        <div class="formRight"><input type="text" class="validate[required,maxSize[6]]" value="0123456789" name="maxValid" id="maxValid">每天排队收益1%，打款后收益2.2%；<br>
+申请完成后，请等待系统1-10日随机分配提供需求；<br>
 提示：我已完全了解平台规则并愿意遵守规则。</div><div class="clear"></div>
 					                    </div>
 					                    <div class="formSubmit"><input type="submit" value="提供帮助" class="redB"></div>

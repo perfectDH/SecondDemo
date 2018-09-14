@@ -22,4 +22,6 @@ public interface AdminServices {
     void deleteremuse(Integer id);
 
     void updateRemuseStruts(Integer id);
+
+    List<employee> selectEmployee();
 }

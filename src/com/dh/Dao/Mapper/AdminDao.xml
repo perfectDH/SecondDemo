@@ -6,7 +6,7 @@
     </select>
 
     <insert id="adminRelease" parameterType="Recruit">
-        insert into recruit value(#{rid},#{title},#{company},#{adminname},#{usermessage},#{recruitdate});
+        insert into recruit value(#{rid},#{title},#{company},#{adminname},#{usermessage},#{recruitdate},#{address});
     </insert>
 
     <select id="findAllremuse" resultType="remuse">
@@ -36,4 +36,8 @@ select * from remuse;
     <update id="updateRemuseStruts" parameterType="int">
         update remuse set rstruts=#{arg0};
     </update>
+
+    <select id="selectEmployee" resultType="employee">
+        select * from employee;
+    </select>
 </mapper>
