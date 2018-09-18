@@ -5,6 +5,7 @@ import com.dh.JavaBean.User;
 import com.dh.JavaBean.remuse;
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
 import java.util.List;
 
 @Repository
@@ -22,4 +23,15 @@ public interface UserDao {
     Integer selectCount();
 
     List<remuse> findRemusebuName(String username);
+
+    String selectDept(Integer deptid);
+
+    String selectposi(Integer pid);
+
+
+    void employeeclocking(Integer id, int i, Date date);
+
+    void employeeclockingnight(Integer id, int i, Date date);
+
+    void employeeclockinglate(Integer id, int i, Date date);
 }

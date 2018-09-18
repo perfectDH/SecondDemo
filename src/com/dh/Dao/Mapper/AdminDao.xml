@@ -21,9 +21,6 @@ select * from remuse;
         select * from user where username=#{arg0};
     </select>
 
-    <insert id="addemployee" parameterType="employee">
-        insert into employee values(#{eid},#{ename},#{did},#{pay},#{rewards},#{date},#{pid},#{estruts});
-    </insert>
 
     <delete id="deleteremuse" parameterType="int">
         delete from remuse where reid=#{arg0};
@@ -37,7 +34,28 @@ select * from remuse;
         update remuse set rstruts=#{arg0};
     </update>
 
-    <select id="selectEmployee" resultType="employee">
-        select * from employee;
+
+    <update id="updateUser" parameterType="int">
+        update user set ustruts= 1 where uid=#{arg0};
+    </update>
+
+    <select id="findUserbyStruts" resultType="User">
+        select * from user;
+    </select>
+
+    <insert id="addDept">
+        insert into dept(deptname,dcreatetime) values(#{arg0},#{arg1});
+    </insert>
+
+    <select id="selectDep" resultType="Dept">
+        select * from dept;
+    </select>
+
+    <insert id="addPosi">
+        insert into posi(posiname,deptid) values(#{arg1},#{arg0});
+    </insert>
+
+    <select id="findUserByid" parameterType="int" resultType="User">
+        select * from user where uid=#{arg0};
     </select>
 </mapper>

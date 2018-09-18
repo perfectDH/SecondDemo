@@ -10,95 +10,98 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
-    <title>首页</title>
-    <link href="${pageContext.request.contextPath}/css/main.css" rel="stylesheet" type="text/css"/>
-
-
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <title>我的资料</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
     <style type="text/css">
         .remusebtn {
             margin-right: 1px;
             margin-bottom: 1px;
         }
+        #btn{
+            margin-right: 1px;
+            margin-bottom: 1px;
+            border-radius: 1px;
+            border: white solid 1px;
+            background-color: blue;
+        }
     </style>
 
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+   <%-- <script type="text/javascript" src="js/jquery.min.js"></script>
 
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/spinner/ui.spinner.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/spinner/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/plugins/spinner/ui.spinner.js"></script>
+    <script type="text/javascript" src="js/plugins/spinner/jquery.mousewheel.js"></script>
 
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-ui.min.js"></script>
-
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/charts/excanvas.min.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/charts/jquery.flot.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/charts/jquery.flot.orderBars.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/charts/jquery.flot.pie.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/charts/jquery.flot.resize.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/charts/jquery.sparkline.min.js"></script>
-
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/forms/uniform.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.cleditor.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.validationEngine-en.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.validationEngine.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.tagsinput.min.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/autogrowtextarea.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.maskedinput.min.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.dualListBox.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/jquery.inputlimiter.min.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/forms/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 
 
-    <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/wizard/jquery.form.js"></script>--%>
-    <%--<script type="text/javascript"--%>
-    <%--src="${pageContext.request.contextPath}/js/plugins/wizard/jquery.validate.min.js"></script>--%>
-    <%--<script type="text/javascript"--%>
-    <%--src="${pageContext.request.contextPath}/js/plugins/wizard/jquery.form.wizard.js"></script>--%>
-
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/uploader/plupload.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/uploader/plupload.html5.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/uploader/plupload.html4.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/uploader/jquery.plupload.queue.js"></script>
-
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/tables/datatable.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/tables/tablesort.min.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/tables/resizable.min.js"></script>
 
 
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/ui/jquery.tipsy.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/ui/jquery.collapsible.min.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/ui/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/ui/jquery.progress.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/ui/jquery.timeentry.min.js"></script>
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/ui/jquery.colorpicker.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/ui/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.orderBars.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.pie.js"></script>
 
 
-    <script type="text/javascript"
-            src="${pageContext.request.contextPath}/js/plugins/ui/jquery.breadcrumbs.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/ui/jquery.sourcerer.js"></script>
 
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/calendar.min.js"></script>
+
+    <script type="text/javascript" src="js/plugins/charts/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>
+
+    <script type="text/javascript" src="js/plugins/forms/uniform.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.cleditor.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.validationEngine-en.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.validationEngine.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>
+
+
+
+    <script type="text/javascript" src="js/plugins/forms/autogrowtextarea.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.dualListBox.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>
+    <script type="text/javascript" src="js/plugins/forms/chosen.jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/plugins/wizard/jquery.form.js"></script>
+    <script type="text/javascript" src="js/plugins/wizard/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/plugins/wizard/jquery.form.wizard.js"></script>
+
+    <script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>
+    <script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>
+
+
+
+
+
+    <script type="text/javascript" src="js/plugins/tables/datatable.js"></script>
+    <script type="text/javascript" src="js/plugins/tables/tablesort.min.js"></script>
+    <script type="text/javascript" src="js/plugins/tables/resizable.min.js"></script>
+
+    <script type="text/javascript" src="js/plugins/ui/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.progress.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.timeentry.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.colorpicker.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.breadcrumbs.js"></script>
+    <script type="text/javascript" src="js/plugins/ui/jquery.sourcerer.js"></script>
+
+    <script type="text/javascript" src="js/plugins/calendar.min.js"></script>
+    <script type="text/javascript" src="js/plugins/elfinder.min.js"></script>
+
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <script type="text/javascript" src="js/charts/chart.js"></script>
+--%>
+
+
+
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"> </script>
+
+
 
 
     <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/plugins/elfinder.min.js"></script>--%>
@@ -110,11 +113,9 @@
 
     <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  -->
     <script type="text/javascript">
-        $(function () {
-
-            $("#imgbtn").click(function () {
+        $(function (){
+            $("#imgbtn").click(function (){
                 //当图片按钮被点击时，使用ajax查询最新的简历申请.
-
                 $.ajax({
                         url: "findremuse.action",
                         type: "post",
@@ -130,16 +131,12 @@
                                     "<div class='remusebtn'><input type='button' value='同意'  name='1' onclick='agree(" + item.reid + ")'><input type='button' value='拒绝' name='0'  onclick='noargee(" + item.reid + ")'></div>" +
                                     " <div class='clear'></div>" +
                                     "</div>");
-
                                 $("#remuseadd").append(div);
                             });
                         }
-
                     }
                 );
-
             });
-
             //新增员工的ajax请求
             $("#add").click(function () {
                 $.ajax({
@@ -147,28 +144,27 @@
                     type: "post",
                     dataType: "json",
                     success: function (data) { //
-                        // $("#add").empty();
+                         $("#addemplo").empty();
                         $.each(data, function (idx, item) {
                             var div = $("<div class='wUserInfo'>" +
                                 "<a href='#' title='' class='wUserPic'><img src='images/user.png' alt=''/></a>" +
                                 "<ul class='leftList'>" +
-                                " <li><a href='#' title=''><strong>" + item.ename + "</strong></a></li>" +
-                                "<li><a href='#' title=''>" + item.date + "</a></li>" +
+                                " <li><a href='#' title=''><strong>" + item.username + "</strong></a></li>" +
+                                "<li><a href='#' title=''>" + item.ubodyid + "</a></li>" +
+                                "<li><a href='#' title=''>" + item.uphone + "</a></li>" +
                                 "</ul>" +
+                                    "<div> <input type='submit' value='管理' id='btn' onclick='upEmployee("+item.uid+")'/></div>"+
                                 " <div class='clear'></div>" +
                                 " </div>");
-                            $("#add").append(div);
-
+                            $("#addemplo").append(div);
                         });
                     }
                 });
             });
-
-
             $("#add").trigger("click");
             $("#imgbtn").trigger("click");
-
         });
+
 
         function agree(reid) {
             $.ajax({
@@ -183,11 +179,12 @@
                 }
             });
         }
-
         function noargee(reid) {
-
         }
 
+        function upEmployee(uid) {
+            window.location.href = "http://localhost:8080/updateUser.action?uid="+uid +"";
+        }
     </script>
 </head>
 
@@ -195,7 +192,7 @@
 <body>
 
 <!-- Left side content -->
-<div id="leftSide">
+ <div id="leftSide">
     <div class="logo"><a href="#"><img src=".....images/logo.png" alt=""/></a></div>
 
     <div class="sidebarSep mt0"></div>
@@ -224,16 +221,14 @@
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
-        <li class="charts"><a href="我的资料.html" title="" class="exp"><span>账户管理</span></a>
+        <li class="charts"><a href="我的资料.html" title="" class="exp"><span>部门管理</span></a>
             <ul class="sub">
-                <li><a href="#" title="">激活码管理</a></li>
-                <li><a href="门票管理.html" title="">门票券管理</a></li>
-                <li><a href="我的团队.html" title="">伞下的成员</a></li>
-                <li><a href="#" title="">注册下线会员</a></li>
-                <li class="last"><a href="#" title="">注销登录账号</a></li>
+                <li><a href="addDept.action" title="">部门与职位添加</a></li>
+                <li><a href="deleteDept.action" title="">部门与职位删除</a></li>
+                <li><a href="selectDept.action" title="">部门与职位查看</a></li>
             </ul>
         </li>
-        <li class="forms"><a href="#" title="" class="exp"><span>交易记录</span><strong></strong></a>
+        <li class="forms"><a href="#" title="" class="exp"><span>员工管理</span><strong></strong></a>
             <ul class="sub">
                 <li><a href="提供帮助记录.html" title="">提供帮助记录</a></li>
                 <li><a href="接受帮助记录.html" title="">接受帮助记录</a></li>
@@ -242,7 +237,7 @@
                 <li class="last"><a href="经理奖钱包记录.html" title="">经理奖钱包记录</a></li>
             </ul>
         </li>
-        <li class="ui"><a href="#" title="" class="exp"><span>我的钱包</span></a>
+        <li class="ui"><a href="#" title="" class="exp"><span>奖惩管理</span></a>
             <ul class="sub">
                 <li><a href="我的钱包.html" title="">资产：￥10000</a></li>
                 <li><a href="我的钱包.html" title="">经理：￥1700</a></li>
@@ -250,7 +245,7 @@
                 <li class="last"><a href="我的钱包.html" title="">积分：0分</a></li>
             </ul>
         </li>
-        <li class="tables"><a href="我的资料.html" title="" class="exp"><span>个人档案</span><strong></strong></a>
+        <li class="tables"><a href="我的资料.html" title="" class="exp"><span>培训管理</span><strong></strong></a>
             <ul class="sub">
                 <li><a href="我的资料.html" title="">ID号：1</a></li>
                 <li><a href="我的资料.html" title="">级别：Lv1</a></li>
@@ -479,7 +474,9 @@
                     <div class="title"><img src="images/icons/dark/add.png" alt="" class="titleIcon" id="add"/><h6>
                         新增员工</h6>
                     </div>
+                    <div class="wUserInfo" id="addemplo">
 
+                    </div>
 
                 </div>
 
@@ -490,6 +487,7 @@
                     </div>
 
                     <div class="updates" id="remuseadd">
+
 
 
                     </div>

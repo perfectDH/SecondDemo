@@ -42,10 +42,7 @@ public class AdminServicesIml implements AdminServices {
         return adminDao.findUserbyname(username);
     }
 
-    @Override
-    public void addemployee(employee e) {
-        adminDao.addemployee(e);
-    }
+
 
     @Override
     public void deleteremuse(Integer id) {
@@ -57,8 +54,36 @@ public class AdminServicesIml implements AdminServices {
         adminDao.updateRemuseStruts(id);
     }
 
+
     @Override
-    public List<employee> selectEmployee() {
-        return adminDao.selectEmployee();
+    public void updateUser(Integer uid) {
+        adminDao.updateUser(uid);
+    }
+
+    @Override
+    public List<User> findUserbyStruts() {
+        return adminDao.findUserbyStruts();
+    }
+
+    @Override
+    public void addDept(String deptname, Date date) {
+        adminDao.addDept(deptname,date);
+    }
+
+    @Override
+    public List<Dept> selectDept() {
+
+        return adminDao.selectDep();
+    }
+
+    @Override
+    public void addPosi(Integer deptid, String posiname) {
+        adminDao.addPosi(deptid,posiname);
+    }
+
+    @Override
+    public User findUserByid(Integer uid) {
+
+        return adminDao.findUserByid(uid);
     }
 }

@@ -10,6 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -26,9 +28,30 @@ public class UserController {
     //用户登录
     @RequestMapping("/Userlogin.action")
     public String userLogin(String username, String password, HttpSession session) {
+        //根据用户信息查询用户的状态，不是员工则转发到find message，是员工则转发的员工界面
         User user = userServices.userLogin(username, password);
         session.setAttribute("user", user);
-        return "forward:findMessage.action";
+        if (user.getUstruts() == 0) {
+            return "forward:findMessage.action";
+        }
+        //转发到员工的主界面
+        return "forward:findemployee.action";
+
+
+    }
+
+    //跳转到员工界面
+    @RequestMapping("/findemployee.action")
+    public String findemployee(HttpSession session) {
+        //根据用户的部门id和职位id查询
+        User user = (User) session.getAttribute("user");
+        String deptname = userServices.selectDept(user.getDeptid());
+        String posi = userServices.selectposi(user.getPid());
+        List<String> list = new ArrayList<String>();
+        list.add(deptname);
+        list.add(posi);
+        session.setAttribute("dept", list);
+        return "employeemenu";
     }
 
     //查询最新的招聘信息
@@ -69,12 +92,22 @@ public class UserController {
 
     //用户的简历回馈信息
     @RequestMapping("/requestremuse.action")
-    public String requestremuse(String  username,HttpSession session){
+    public String requestremuse(String username, HttpSession session) {
         //根据当前用户的姓名查询所有有关他的面试信息回馈
-        List<remuse> list=userServices.findRemusebuName(username);
-        session.setAttribute("listremuse",list);
+        List<remuse> list = userServices.findRemusebuName(username);
+        session.setAttribute("listremuse", list);
 
         return "userRequest";
+    }
+
+
+    //员工打卡
+    @RequestMapping("/employeeclocking.action")
+    public String clocking(Integer id, HttpSession session) {
+        int struts = userServices.employeeclocking(id);
+        System.out.println(struts);
+        session.setAttribute("struts", struts);
+        return "employeemenu";
     }
 
 

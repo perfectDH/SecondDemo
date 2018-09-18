@@ -22,4 +22,10 @@ public interface UserServices {
 
 
     List<remuse> findRemusebuName(String username);
+
+    String selectDept(Integer deptid);
+
+    String selectposi(Integer pid);
+
+    int employeeclocking(Integer id);
 }

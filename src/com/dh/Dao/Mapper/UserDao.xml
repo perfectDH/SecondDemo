@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dh.Dao.UserDao">
     <select id="userLogin" parameterType="String" resultType="User">
-        select uid,username from user where username=#{arg0} and password=#{arg1};
+        select * from user where username=#{arg0} and password=#{arg1};
     </select>
 
     <select id="findMessage" resultType="Recruit">
@@ -26,5 +26,29 @@
     <select id="findRemusebuName" parameterType="String" resultType="remuse">
         select * from remuse where username=#{arg0};
     </select>
+
+
+    <select id="selectDept" parameterType="int" resultType="String">
+        select deptname from dept where deptid=#{arg0};
+    </select>
+
+    <select id="selectposi" parameterType="int" resultType="String">
+        select posiname from posi where posiid=#{arg0};
+    </select>
+    <!--早上打卡-->
+    <insert id="employeeclocking">
+        insert into clocking(cbegin,uid,cstruts) values(#{arg2},#{arg0},#{arg1});
+    </insert>
+
+    <!--晚上打卡-->
+    <insert id="employeeclockingnight">
+        insert into clocking(cend,uid,cstruts) values(#{arg2},#{arg0},#{arg1});
+    </insert>
+
+    <!--迟到打卡-->
+    <insert id="employeeclockinglate">
+         insert into clocking(clatetime,uid,cstruts) values(#{arg2},#{arg0},#{arg1});
+    </insert>
+
 
 </mapper>

@@ -46,6 +46,7 @@ public class AdminController {
         List<remuse> listremuse = adminServices.findAllremuse();
         //获取简历表的状态，为0则显示，为1则不显示
         //建立一个新集合
+
         List<remuse> listr = new ArrayList<remuse>();
         for (int i = 0; i < listremuse.size(); i++) {
             if (listremuse.get(i).getRstruts() == 0) {
@@ -54,6 +55,26 @@ public class AdminController {
         }
         String list = JSONArray.toJSONString(listr);
         return list;
+    }
+
+
+    //查找新增员工
+    @ResponseBody
+    @RequestMapping("/selectemplo.action")
+    public String selectEmployee() {
+//查询员工状态为0的用户
+        List<User> ustruts = adminServices.findUserbyStruts();
+
+        //创建一个新集合
+        List<User> newlist = new ArrayList<User>();
+
+        for (int i = 0; i < ustruts.size(); i++) {
+            if (ustruts.get(i).getUstruts() == 0) {
+                newlist.add(ustruts.get(i));
+            }
+        }
+        String ulist = JSONArray.toJSONString(newlist);
+        return ulist;
     }
 
     //批准或拒绝面试申请
@@ -66,29 +87,59 @@ public class AdminController {
         remuse r = adminServices.findremusebyid(id);
         //根据名称查用户
         User user = adminServices.findUserbyname(r.getUsername());
-        //将用户信息和简历信息存入员工表
-//        employee e = new employee();
-//        e.setDid(null);
-//        e.setPid(null);
-//        e.setEid(1);
-//        e.setEname(user.getUsername());
-//        e.setPay(r.getPay());
-//        e.setDate(new Date());
-//        e.setEstruts(0);
-//        adminServices.addemployee(e);
+
         //根据id修改简历状态，已查看则不显示
         adminServices.updateRemuseStruts(id);
+
+        //同意的话用户状态改变
+        adminServices.updateUser(user.getUid());
         return "";
     }
 
-    //查找新增员工
-    @ResponseBody
-    @RequestMapping("/selectemplo.action")
-    public String selectEmployee(){
-        List<employee> emplolist=adminServices.selectEmployee();
-        String alist = JSONArray.toJSONString(emplolist);
-        return alist;
+
+    //添加部门与职位
+    @RequestMapping("/addDept.action")
+    public String forAdmindept(HttpSession session) {
+        List<Dept> deptlist = adminServices.selectDept();
+        session.setAttribute("deptlist", deptlist);
+        return "AdminDept";
     }
+
+    //添加部门
+    @RequestMapping("/addDeptmessage.action")
+    public String addDeptmessage(String deptname) {
+        adminServices.addDept(deptname, new Date());
+        return "AdminDept";
+    }
+
+    //添加职位
+    @RequestMapping("/addPosi.action")
+    public String addPosi(Integer deptid, String posiname) {
+        adminServices.addPosi(deptid, posiname);
+        return "AdminDept";
+    }
+
+
+//    //省市联动查询部门
+//    @ResponseBody
+//    @RequestMapping("/selectDept.action")
+//    public String selectDept(){
+//
+//        String dtlist = JSONArray.toJSONString(deptlist);
+//        return dtlist;
+//    }
+
+    //修改新增员工的信息,将部门信息传递过去
+    @RequestMapping("/updateUser.action")
+    public String updateUser(Integer uid,HttpSession session){
+        //根据id查询用户信息，保存到session中
+        User user=adminServices.findUserByid(uid);
+        List<Dept> deptlist = adminServices.selectDept();
+        session.setAttribute("updept",deptlist);
+        session.setAttribute("upUser",user);
+        return "AdminEmployee";
+    }
+
 
 
 }

@@ -16,9 +16,32 @@ public class User {
     private String uphone;
     private String ubodyid;
     private String ueducation;
+
+
+    //部门id
+    private Integer deptid;
+    //职位id
+    private Integer pid;
+
     private int ustruts;
 
     public User() {
+    }
+
+    public Integer getDeptid() {
+        return deptid;
+    }
+
+    public void setDeptid(Integer deptid) {
+        this.deptid = deptid;
+    }
+
+    public Integer getPid() {
+        return pid;
+    }
+
+    public void setPid(Integer pid) {
+        this.pid = pid;
     }
 
     public String getUeducation() {
@@ -86,6 +109,8 @@ public class User {
                 ", uphone='" + uphone + '\'' +
                 ", ubodyid='" + ubodyid + '\'' +
                 ", ueducation='" + ueducation + '\'' +
+                ", deptid=" + deptid +
+                ", pid=" + pid +
                 ", ustruts=" + ustruts +
                 '}';
     }
