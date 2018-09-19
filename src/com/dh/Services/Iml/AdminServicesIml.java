@@ -6,6 +6,7 @@ import com.dh.Services.AdminServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -85,5 +86,56 @@ public class AdminServicesIml implements AdminServices {
     public User findUserByid(Integer uid) {
 
         return adminDao.findUserByid(uid);
+    }
+
+    @Override
+    public List<posi> findPosiBydeptid(Integer deptid) {
+        return adminDao.findPosiBydeptid(deptid);
+    }
+
+    @Override
+    public void updateEmployeeBydept(String username, Integer deptid, Integer posiid) {
+        //根据id查询用户
+        User user=adminDao.findUserbyname(username);
+        user.setUstruts(1);
+        int struts=user.getUstruts();
+        adminDao.updateEmployeeBydept(user.getUid(),deptid,posiid,struts);
+    }
+
+    @Override
+    public List<UserDetils> findEmployeeBydeptandposi(Integer dept, Integer posi) {
+        //根据部门id和职位id查询员工
+        List<User> list=adminDao.findUser(dept,posi);
+        //根据部门id查询部门名称
+        String deptname=adminDao.finddeptname(dept);
+        //根据部门id查询部门名称
+        String posiname=adminDao.findposiname(dept,posi);
+        List<UserDetils> newlist=new ArrayList<UserDetils>();
+        for(int i=0;i<list.size();i++){
+            UserDetils u=new UserDetils();
+            u.setUser(list.get(i));
+            u.setDeptname(deptname);
+            u.setPosiname(posiname);
+            u.setCtotals(adminDao.findtotal(list.get(i).getUid()));
+            newlist.add(u);
+        }
+        return newlist;
+    }
+
+    @Override
+    public List<UserDetils> findEmplyBydeptid(Integer dept) {
+        List<User> list=adminDao.findUserbydept(dept);
+        //根据部门id查询部门名称
+        String deptname=adminDao.finddeptname(dept);
+        //根据部门id查询部门名称
+        List<UserDetils> newlist=new ArrayList<UserDetils>();
+        for(int i=0;i<list.size();i++){
+            UserDetils u=new UserDetils();
+            u.setUser(list.get(i));
+            u.setDeptname(deptname);
+            u.setCtotals(adminDao.findtotal(list.get(i).getUid()));
+            newlist.add(u);
+        }
+        return newlist;
     }
 }

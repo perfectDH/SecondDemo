@@ -147,37 +147,21 @@
         <li class="charts"><a href="我的资料.html" title="" class="exp"><span>部门管理</span></a>
             <ul class="sub">
                 <li><a href="addDept.action" title="">部门与职位添加</a></li>
-                <li><a href="我的团队.html" title="">部门与职位删除</a></li>
+                <li><a href="deleteDept.action" title="">部门与职位删除</a></li>
+                <li><a href="selectDept.action" title="">部门与职位查看</a></li>
             </ul>
         </li>
-        <li class="forms"><a href="#" title="" class="exp"><span>员工管理</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="提供帮助记录.html" title="">提供帮助记录</a></li>
-                <li><a href="接受帮助记录.html" title="">接受帮助记录</a></li>
-                <li><a href="团队信息记录.html" title="">团队信息记录</a></li>
-                <li><a href="提供帮助所得利息.html" title="">提供帮助所得利息</a></li>
-                <li class="last"><a href="经理奖钱包记录.html" title="">经理奖钱包记录</a></li>
-            </ul>
+        <li class="forms"><a href="showEmployee.action" title="" class="exp"><span>员工管理</span><strong></strong></a>
+
         </li>
-        <li class="ui"><a href="#" title="" class="exp"><span>奖惩管理</span></a>
-            <ul class="sub">
-                <li><a href="我的钱包.html" title="">资产：￥10000</a></li>
-                <li><a href="我的钱包.html" title="">经理：￥1700</a></li>
-                <li><a href="我的钱包.html" title="">推荐：￥150</a></li>
-                <li class="last"><a href="我的钱包.html" title="">积分：0分</a></li>
-            </ul>
+        <li class="ui"><a href="showaward.action" title="" class="exp"><span>奖惩管理</span></a>
+
         </li>
-        <li class="tables"><a href="我的资料.html" title="" class="exp"><span>培训管理</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="我的资料.html" title="">ID号：1</a></li>
-                <li><a href="我的资料.html" title="">级别：Lv1</a></li>
-                <li><a href="我的资料.html" title="">姓名：华远网络</a></li>
-                <li class="last"><a href="我的资料.html" title="">手机：18200000000</a></li>
-            </ul>
+        <li class="tables"><a href="showcadets.action" title="" class="exp"><span>培训管理</span><strong></strong></a>
+
         </li>
-        <li class="widgets"><a href="#" title="" class="exp"><span>拆包大厅</span><strong></strong></a></li>
-    </ul>
-</div>
+        <li class="widgets"><a href="showpay.action" title="" class="exp"><span>薪资管理</span><strong></strong></a></li>
+    </ul></div>
 
 
 <!-- Right side -->

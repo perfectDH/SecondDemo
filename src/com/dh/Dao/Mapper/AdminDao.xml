@@ -58,4 +58,33 @@ select * from remuse;
     <select id="findUserByid" parameterType="int" resultType="User">
         select * from user where uid=#{arg0};
     </select>
+
+    <select id="findPosiBydeptid" parameterType="int" resultType="posi">
+        select * from posi where deptid=#{arg0};
+    </select>
+
+    <update id="updateEmployeeBydept">
+        update user set deptid=#{arg1},pid=#{arg2},ustruts=#{arg3} where uid=#{arg0};
+    </update>
+
+    <select id="findUser" parameterType="int" resultType="User">
+        select * from user where deptid=#{arg0} and pid=#{arg1};
+    </select>
+
+    <select id="finddeptname" parameterType="int" resultType="String">
+        select deptname from dept where deptid=#{arg0};
+    </select>
+
+
+    <select id="findposiname" parameterType="int" resultType="String">
+        select posiname from posi where posiid=#{arg1} and deptid=#{arg0};
+    </select>
+
+    <select id="findtotal" parameterType="int" resultType="int">
+        select count(1) from clocking where uid=#{arg0} and cstruts=3;
+    </select>
+
+    <select id="findUserbydept" parameterType="int" resultType="User">
+        select * from user where deptid=#{arg0};
+    </select>
 </mapper>

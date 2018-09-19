@@ -39,4 +39,18 @@ public interface AdminDao {
     void addPosi(Integer deptid, String posiname);
 
     User findUserByid(Integer uid);
+
+    List<posi> findPosiBydeptid(Integer deptid);
+
+    void updateEmployeeBydept(Integer uid, Integer deptid, Integer posiid,Integer struts);
+
+    List<User> findUser(Integer dept, Integer posi);
+
+    String finddeptname(Integer dept);
+
+    String findposiname(Integer dept, Integer posi);
+
+    Integer findtotal(Integer uid);
+
+    List<User> findUserbydept(Integer dept);
 }

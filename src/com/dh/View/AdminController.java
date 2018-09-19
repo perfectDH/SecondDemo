@@ -1,13 +1,16 @@
 package com.dh.View;
 
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.dh.JavaBean.*;
 import com.dh.Services.AdminServices;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.Date;
@@ -120,25 +123,68 @@ public class AdminController {
     }
 
 
-//    //省市联动查询部门
-//    @ResponseBody
-//    @RequestMapping("/selectDept.action")
-//    public String selectDept(){
-//
-//        String dtlist = JSONArray.toJSONString(deptlist);
-//        return dtlist;
-//    }
-
     //修改新增员工的信息,将部门信息传递过去
     @RequestMapping("/updateUser.action")
-    public String updateUser(Integer uid,HttpSession session){
+    public String updateUser(Integer uid, HttpSession session) {
         //根据id查询用户信息，保存到session中
-        User user=adminServices.findUserByid(uid);
+        User user = adminServices.findUserByid(uid);
         List<Dept> deptlist = adminServices.selectDept();
-        session.setAttribute("updept",deptlist);
-        session.setAttribute("upUser",user);
-        return "AdminEmployee";
+        session.setAttribute("updept", deptlist);
+        session.setAttribute("upUser", user);
+        return "AdminAndEmployee";
     }
+
+    //省市联动查询职位
+    @ResponseBody
+    @RequestMapping("/findPosiBydeptid.action")
+    public String findPosiBydeptid(Integer dept) {
+        List<posi> posiList = adminServices.findPosiBydeptid(dept);
+        return  JSONObject.toJSONString(posiList);
+    }
+
+    @RequestMapping("/updateEmployeeBydept.action")
+    public String updateEmployeeBydept(String username,Integer deptid,Integer posiid){
+        //根据管理员的操作更改来操作用户
+        adminServices.updateEmployeeBydept(username,deptid,posiid);
+        return "Adminindex";
+    }
+
+    //员工的删改查
+    @RequestMapping("/showEmployee.action")
+    public String showEmployee(HttpSession session){
+        List<Dept> deptlist = adminServices.selectDept();
+        session.setAttribute("deptshow", deptlist);
+        return "AdminSelectEmployee";
+    }
+    //根据ajax传递的部门id和职位id查询员工信息
+    @ResponseBody
+    @RequestMapping("/findEmployeeBydeptandposi.action")
+    public String findEmployeeBydeptandposi(Integer dept,Integer posi){
+        List<UserDetils> udlist=adminServices.findEmployeeBydeptandposi(dept,posi);
+        return  JSONObject.toJSONString(udlist);
+    }
+
+    //根据部门id查询员工
+    @ResponseBody
+    @RequestMapping("/findEmplyBydeptid.action")
+    public String findEmplyBydeptid(Integer dept){
+        List<UserDetils> udlist=adminServices.findEmplyBydeptid(dept);
+        return  JSONObject.toJSONString(udlist);
+    }
+
+    //修改新增员工的信息,将部门信息传递过去
+    @RequestMapping("/updateUserSelect.action")
+    public String updateUserSelect(Integer uid, HttpSession session, HttpServletRequest request, Integer deptid, Integer posiid) {
+        //根据id查询用户信息，保存到session中
+        User user = adminServices.findUserByid(uid);
+        List<Dept> deptlist = adminServices.selectDept();
+        session.setAttribute("updept", deptlist);
+        session.setAttribute("upUser", user);
+        request.setAttribute("deptid",deptid);
+        request.setAttribute("posiid",posiid);
+        return "AdminAndEmployee";
+    }
+
 
 
 

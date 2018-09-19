@@ -34,4 +34,12 @@ public interface AdminServices {
     void addPosi(Integer deptid, String posiname);
 
     User findUserByid(Integer uid);
+
+    List<posi> findPosiBydeptid(Integer deptid);
+
+    void updateEmployeeBydept(String username, Integer deptid, Integer posiid);
+
+    List<UserDetils> findEmployeeBydeptandposi(Integer dept, Integer posi);
+
+    List<UserDetils> findEmplyBydeptid(Integer dept);
 }
