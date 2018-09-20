@@ -72,7 +72,7 @@ public class AdminController {
         List<User> newlist = new ArrayList<User>();
 
         for (int i = 0; i < ustruts.size(); i++) {
-            if (ustruts.get(i).getUstruts() == 0) {
+            if (ustruts.get(i).getUstruts() == 1) {
                 newlist.add(ustruts.get(i));
             }
         }
@@ -128,6 +128,8 @@ public class AdminController {
     public String updateUser(Integer uid, HttpSession session) {
         //根据id查询用户信息，保存到session中
         User user = adminServices.findUserByid(uid);
+//        user.setUstruts(2);
+//        adminServices.updateStruts(user);
         List<Dept> deptlist = adminServices.selectDept();
         session.setAttribute("updept", deptlist);
         session.setAttribute("upUser", user);
@@ -178,13 +180,36 @@ public class AdminController {
         //根据id查询用户信息，保存到session中
         User user = adminServices.findUserByid(uid);
         List<Dept> deptlist = adminServices.selectDept();
+        List<UserDetils> udlist=adminServices.findEmployeeBydeptandposi(deptid,posiid);
         session.setAttribute("updept", deptlist);
         session.setAttribute("upUser", user);
-        request.setAttribute("deptid",deptid);
-        request.setAttribute("posiid",posiid);
-        return "AdminAndEmployee";
+        request.setAttribute("dplist",udlist);
+        return "AdminUpdateEmplo";
     }
 
+//培训管理
+    @RequestMapping("/showcadets.action")
+    public String showcadets(HttpServletRequest request){
+        List<Dept> deptlist = adminServices.selectDept();
+        request.setAttribute("deptshow", deptlist);
+        return "AdminAdets";
+    }
+
+
+    //添加培训信息
+    @RequestMapping("/sendcadetsMessage.action")
+    public String sendcadetsMessage(Integer uid,HttpServletRequest request){
+        request.setAttribute("Usercadets",uid);
+        return "AdminAdeatsMessage";
+    }
+
+    //保存培训信息
+    @RequestMapping("/saveCadets.action")
+    public String saveCadets(Cadets cadets){
+        //向培训表插入一些东西
+        adminServices.saveCadets(cadets);
+        return "Adminindex";
+    }
 
 
 

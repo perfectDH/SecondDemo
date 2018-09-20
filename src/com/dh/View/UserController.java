@@ -1,9 +1,7 @@
 package com.dh.View;
 
-import com.dh.JavaBean.Recruit;
-import com.dh.JavaBean.User;
-import com.dh.JavaBean.remuse;
-import com.dh.JavaBean.remuseMessage;
+import com.dh.JavaBean.*;
+import com.dh.Services.AdminServices;
 import com.dh.Services.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,6 +17,9 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserServices userServices;
+
+    @Autowired
+    private AdminServices adminServices;
 
     @RequestMapping("/userLogin.action")
     public String login() {
@@ -108,6 +109,22 @@ public class UserController {
         System.out.println(struts);
         session.setAttribute("struts", struts);
         return "employeemenu";
+    }
+
+    @RequestMapping("/showEmplo.action")
+    public String showEmplo(HttpSession session){
+        List<Dept> deptlist = adminServices.selectDept();
+        session.setAttribute("deptshow", deptlist);
+        return "EmployeeShow";
+    }
+
+    //查询培训通知
+    @RequestMapping("/showEmployeecadets.action")
+    public String showEmployeecadets(HttpSession session){
+       User u=(User)session.getAttribute("user");
+       //根据uid获取培训通知
+       Cadets cadets= userServices.SelectCadets(u.getUid());
+        return "";
     }
 
 

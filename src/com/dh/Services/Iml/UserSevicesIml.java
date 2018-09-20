@@ -1,10 +1,7 @@
 package com.dh.Services.Iml;
 
 import com.dh.Dao.UserDao;
-import com.dh.JavaBean.Recruit;
-import com.dh.JavaBean.User;
-import com.dh.JavaBean.remuse;
-import com.dh.JavaBean.remuseMessage;
+import com.dh.JavaBean.*;
 import com.dh.Services.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -89,6 +86,11 @@ public class UserSevicesIml implements UserServices {
             //迟到或为打卡
             userDao.employeeclockinglate(id,3,new Date());
         return 3;
+    }
+
+    @Override
+    public Cadets SelectCadets(Integer uid) {
+        return userDao.SelectCadets(uid);
     }
 
 

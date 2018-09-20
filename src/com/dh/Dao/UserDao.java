@@ -1,5 +1,6 @@
 package com.dh.Dao;
 
+import com.dh.JavaBean.Cadets;
 import com.dh.JavaBean.Recruit;
 import com.dh.JavaBean.User;
 import com.dh.JavaBean.remuse;
@@ -34,4 +35,6 @@ public interface UserDao {
     void employeeclockingnight(Integer id, int i, Date date);
 
     void employeeclockinglate(Integer id, int i, Date date);
+
+    Cadets SelectCadets(Integer uid);
 }

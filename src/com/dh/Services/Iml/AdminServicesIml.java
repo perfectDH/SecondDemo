@@ -58,6 +58,7 @@ public class AdminServicesIml implements AdminServices {
 
     @Override
     public void updateUser(Integer uid) {
+
         adminDao.updateUser(uid);
     }
 
@@ -97,7 +98,7 @@ public class AdminServicesIml implements AdminServices {
     public void updateEmployeeBydept(String username, Integer deptid, Integer posiid) {
         //根据id查询用户
         User user=adminDao.findUserbyname(username);
-        user.setUstruts(1);
+        user.setUstruts(2);
         int struts=user.getUstruts();
         adminDao.updateEmployeeBydept(user.getUid(),deptid,posiid,struts);
     }
@@ -137,5 +138,17 @@ public class AdminServicesIml implements AdminServices {
             newlist.add(u);
         }
         return newlist;
+    }
+
+    @Override
+    public void updateStruts(User user) {
+        Integer uid=user.getUid();
+        Integer ustruts=user.getUstruts();
+        adminDao.updateStruts(uid,ustruts);
+    }
+
+    @Override
+    public void saveCadets(Cadets cadets) {
+        adminDao.saveCadets(cadets);
     }
 }

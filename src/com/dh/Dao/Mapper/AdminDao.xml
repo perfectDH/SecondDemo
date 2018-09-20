@@ -87,4 +87,13 @@ select * from remuse;
     <select id="findUserbydept" parameterType="int" resultType="User">
         select * from user where deptid=#{arg0};
     </select>
+
+    <update id="updateStruts" parameterType="int">
+        update user set ustruts=#{arg1} where uid=#{arg0};
+    </update>
+
+
+    <insert id="saveCadets" parameterType="Cadets">
+        insert into cadets(cadetsmessage,begindate,uid,cadetstitle,enddate) values(#{cadetsmessage},#{begindate},#{uid},#{cadetstitle},#{enddate});
+    </insert>
 </mapper>

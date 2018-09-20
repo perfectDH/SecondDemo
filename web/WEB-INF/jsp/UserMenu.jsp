@@ -138,10 +138,7 @@
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class=username"active"><span>首页</span></a></li>
-
         <li class="charts"><a href="requestremuse.action?username=${sessionScope.user.username}" title="" class="exp"><span>简历回馈</span></a>
-
-
     </ul>
 </div>
 

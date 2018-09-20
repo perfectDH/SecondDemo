@@ -1,9 +1,6 @@
 package com.dh.Services;
 
-import com.dh.JavaBean.Recruit;
-import com.dh.JavaBean.User;
-import com.dh.JavaBean.remuse;
-import com.dh.JavaBean.remuseMessage;
+import com.dh.JavaBean.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -28,4 +25,6 @@ public interface UserServices {
     String selectposi(Integer pid);
 
     int employeeclocking(Integer id);
+
+    Cadets SelectCadets(Integer uid);
 }

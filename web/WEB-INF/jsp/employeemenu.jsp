@@ -17,7 +17,7 @@
     <title>我的资料</title>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <%--<script type="text/javascript" src="js/jquery.min.js"></script>
 
     <script type="text/javascript" src="js/plugins/spinner/ui.spinner.js"></script>
     <script type="text/javascript" src="js/plugins/spinner/jquery.mousewheel.js"></script>
@@ -70,8 +70,8 @@
 
     <script type="text/javascript" src="js/custom.js"></script>
 
-    <script type="text/javascript" src="js/charts/chart.js"></script>
-
+    <script type="text/javascript" src="js/charts/chart.js"></script>--%>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"> </script>
     <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
 
 <body>
@@ -106,41 +106,13 @@
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
-        <li class="charts"><a href="我的资料.html" title="" class="exp"><span>员工查看</span></a>
-            <ul class="sub">
-                <li><a href="#" title="">激活码管理</a></li>
-                <li><a href="门票管理.html" title="">门票券管理</a></li>
-                <li><a href="我的团队.html" title="">伞下的成员</a></li>
-                <li><a href="#" title="">注册下线会员</a></li>
-                <li class="last"><a href="#" title="">注销登录账号</a></li>
-            </ul>
+        <li class="charts"><a href="showEmplo.action" title="" class="exp"><span>员工查看</span></a>
         </li>
-        <li class="forms"><a href="#" title="" class="exp"><span>交易记录</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="提供帮助记录.html" title="">提供帮助记录</a></li>
-                <li><a href="接受帮助记录.html" title="">接受帮助记录</a></li>
-                <li><a href="团队信息记录.html" title="">团队信息记录</a></li>
-                <li><a href="提供帮助所得利息.html" title="">提供帮助所得利息</a></li>
-                <li class="last"><a href="经理奖钱包记录.html" title="">经理奖钱包记录</a></li>
-            </ul>
+        <li class="forms"><a href="showaward.action" title="" class="exp"><span>奖罚查看</span><strong></strong></a>
         </li>
-        <li class="ui"><a href="#" title="" class="exp"><span>我的钱包</span></a>
-            <ul class="sub">
-                <li><a href="我的钱包.html" title="">资产：￥10000</a></li>
-                <li><a href="我的钱包.html" title="">经理：￥1700</a></li>
-                <li><a href="我的钱包.html" title="">推荐：￥150</a></li>
-                <li class="last"><a href="我的钱包.html" title="">积分：0分</a></li>
-            </ul>
+        <li class="ui"><a href="showMonerytotal.action" title="" class="exp"><span>我的钱包</span></a>
         </li>
-        <li class="tables"><a href="我的资料.html" title="" class="exp"><span>个人档案</span><strong></strong></a>
-            <ul class="sub">
-                <li><a href="我的资料.html" title="">ID号：1</a></li>
-                <li><a href="我的资料.html" title="">级别：Lv1</a></li>
-                <li><a href="我的资料.html" title="">姓名：华远网络</a></li>
-                <li class="last"><a href="我的资料.html" title="">手机：18200000000</a></li>
-            </ul>
-        </li>
-        <li class="widgets"><a href="#" title="" class="exp"><span>拆包大厅</span><strong></strong></a></li>
+        <li class="widgets"><a href="showEmployeecadets.action" title="" class="exp"><span>培训通知</span><strong></strong></a></li>
     </ul>
 </div>
 
@@ -186,9 +158,7 @@
             <div class="title"><img src="images/icons/dark/stats.png" alt="" class="titleIcon"><h6>我的资料</h6></div>
             <ul class="tabs">
                 <li><a href="#tab1">基本信息</a></li>
-                <%--<li><a href="#tab2">账户密码</a></li>--%>
-                <%--<li><a href="#tab3">安全密码</a></li>--%>
-                <%--<li><a href="#tab4">上传头像</a></li>--%>
+
             </ul>
             <div class="tab_container">
                 <div id="tab1" class="tab_content np" style="display: block;">

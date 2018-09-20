@@ -144,12 +144,8 @@
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
-        <li class="charts"><a href="我的资料.html" title="" class="exp"><span>部门管理</span></a>
-            <ul class="sub">
-                <li><a href="addDept.action" title="">部门与职位添加</a></li>
-                <li><a href="deleteDept.action" title="">部门与职位删除</a></li>
-                <li><a href="selectDept.action" title="">部门与职位查看</a></li>
-            </ul>
+        <li class="charts"><a href="addDept.action" title="" class="exp"><span>部门管理</span></a>
+
         </li>
         <li class="forms"><a href="showEmployee.action" title="" class="exp"><span>员工管理</span><strong></strong></a>
 

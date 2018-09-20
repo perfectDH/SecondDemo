@@ -42,4 +42,8 @@ public interface AdminServices {
     List<UserDetils> findEmployeeBydeptandposi(Integer dept, Integer posi);
 
     List<UserDetils> findEmplyBydeptid(Integer dept);
+
+    void updateStruts(User user);
+
+    void saveCadets(Cadets cadets);
 }

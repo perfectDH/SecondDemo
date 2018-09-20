@@ -50,5 +50,8 @@
          insert into clocking(clatetime,uid,cstruts) values(#{arg2},#{arg0},#{arg1});
     </insert>
 
+    <select id="SelectCadets" parameterType="int" resultType="Cadets">
+        select * from cadets where uid=#{arg0};
+    </select>
 
 </mapper>

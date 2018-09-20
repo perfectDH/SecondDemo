@@ -53,4 +53,8 @@ public interface AdminDao {
     Integer findtotal(Integer uid);
 
     List<User> findUserbydept(Integer dept);
+
+    void updateStruts(Integer uid, Integer ustruts);
+
+    void saveCadets(Cadets cadets);
 }

@@ -133,8 +133,6 @@
                                 "<td align='center'>"+item.deptname+"</td>" +
                                 "<td align='center'>"+item.posiname+"</td>" +
                                 "<td align='center'>"+item.user.ustruts+"</td>"+
-                                "<td align='center'><a href=''>修改</a></td>" +
-                                "<td align='center'><a href=''>删除</a></td>" +
                                 "</tr>"
                             $("#tbody").append(tr);
                         });
@@ -157,19 +155,17 @@
                     success:function (data) {
                         $("#tbody").empty();
                         $.each(data,function (idx,item) {
-                           var tr="  <tr>" +
-                               "<td align='center'><a href='#' title=''class='webStatsLink'>"+item.user.uid+"</a></td>"+
-                               "<td align='center'>"+item.user.username+"</td>" +
-                               " <td align='center'>"+item.user.ubodyid+"</td>" +
-                               " <td align='center'><span class='statsPlus'>"+ +"</span></td>" +
-                               "<td align='center'>"+ +"</td>"+
-                               "<td align='center'>缺卡"+item.ctotals+"次</td>" +
-                               "<td align='center'>"+item.deptname+"</td>" +
-                               "<td align='center'>"+item.posiname+"</td>" +
-                               "<td align='center'>"+item.user.ustruts+"</td>"+
-                               "<td align='center'><a href='updateUserSelect.action?uid="+item.user.uid+"&deptid="+item.user.deptid+"&posiid="+item.user.pid+"'>修改</a></td>" +
-                               "<td align='center'><a href=''>删除</a></td>" +
-                               "</tr>"
+                            var tr="  <tr>" +
+                                "<td align='center'><a href='#' title=''class='webStatsLink'>"+item.user.uid+"</a></td>"+
+                                "<td align='center'>"+item.user.username+"</td>" +
+                                " <td align='center'>"+item.user.ubodyid+"</td>" +
+                                " <td align='center'><span class='statsPlus'>"+ +"</span></td>" +
+                                "<td align='center'>"+ +"</td>"+
+                                "<td align='center'>缺卡"+item.ctotals+"次</td>" +
+                                "<td align='center'>"+item.deptname+"</td>" +
+                                "<td align='center'>"+item.posiname+"</td>" +
+                                "<td align='center'>"+item.user.ustruts+"</td>"+
+                                "</tr>"
                             $("#tbody").append(tr);
                         });
                     }
@@ -212,18 +208,13 @@
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
-        <li class="charts"><a href="addDept.action" title="" class="exp"><span>部门管理</span></a>
+        <li class="charts"><a href="showEmplo.action" title="" class="exp"><span>员工查看</span></a>
         </li>
-        <li class="forms"><a href="showEmployee.action" title="" class="exp"><span>员工管理</span><strong></strong></a>
-
+        <li class="forms"><a href="showaward.action" title="" class="exp"><span>奖罚查看</span><strong></strong></a>
         </li>
-        <li class="ui"><a href="showaward.action" title="" class="exp"><span>奖惩管理</span></a>
-
+        <li class="ui"><a href="showMonerytotal.action" title="" class="exp"><span>我的钱包</span></a>
         </li>
-        <li class="tables"><a href="showcadets.action" title="" class="exp"><span>培训管理</span><strong></strong></a>
-
-        </li>
-        <li class="widgets"><a href="showpay.action" title="" class="exp"><span>薪资管理</span><strong></strong></a></li>
+        <li class="widgets"><a href="showcadets.action" title="" class="exp"><span>培训通知</span><strong></strong></a></li>
     </ul>
 </div>
 
@@ -259,23 +250,23 @@
     <!-- Main content wrapper -->
     <div class="wrapper">
 
-       <div class="selectdept">
-           <select id="dept" name="deptid">
-               <option value="0">
-                   请选择部门
-               </option>
-               <c:forEach items="${sessionScope.deptshow}" var="dept">
-                   <option value='${dept.deptid}'>${dept.deptname}</option>
-               </c:forEach>
-           </select>
+        <div class="selectdept">
+            <select id="dept" name="deptid">
+                <option value="0">
+                    请选择部门
+                </option>
+                <c:forEach items="${sessionScope.deptshow}" var="dept">
+                    <option value='${dept.deptid}'>${dept.deptname}</option>
+                </c:forEach>
+            </select>
 
-           <select id="posi" name="posiid">
-               <option value="0">
-                   请选择职位
-               </option>
+            <select id="posi" name="posiid">
+                <option value="0">
+                    请选择职位
+                </option>
 
-           </select>
-       </div>
+            </select>
+        </div>
 
         <!-- Widgets -->
         <div class="widgets">
@@ -293,8 +284,6 @@
                         <td width="80">所属部门</td>
                         <td width="180">所属职位</td>
                         <td width="80">员工状态</td>
-                        <td width="80">编辑</td>
-                        <td width="80">编辑</td>
                     </tr>
                     </thead>
                     <tbody id="tbody">
