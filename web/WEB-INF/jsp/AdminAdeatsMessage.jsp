@@ -78,31 +78,10 @@
 
 <!-- Left side content -->
 <div id="leftSide">
-    <div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
-
-    <div class="sidebarSep mt0"></div>
-
-    <!-- Search widget -->
     <form action="" class="sidebarSearch">
         <input type="text" name="search" placeholder="搜索..." id="ac"/>
         <input type="submit" value=""/>
     </form>
-
-    <div class="sidebarSep"></div>
-
-    <!-- Next update progress widget -->
-    <div class="nextUpdate">
-        <ul>
-            <li>下次更新时间在:</li>
-            <li>23 小时 14 分</li>
-        </ul>
-        <div class="pWrapper">
-            <div class="progressG" title="78%"></div>
-        </div>
-    </div>
-
-    <div class="sidebarSep"></div>
-
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>

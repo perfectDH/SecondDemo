@@ -26,5 +26,5 @@ public interface UserServices {
 
     int employeeclocking(Integer id);
 
-    Cadets SelectCadets(Integer uid);
+    List<Cadets> SelectCadets(Integer uid);
 }

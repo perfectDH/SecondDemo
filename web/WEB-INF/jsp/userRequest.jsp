@@ -120,21 +120,10 @@
 
 <!-- Left side content -->
 <div id="leftSide">
-
-
-    <!-- Search widget -->
     <form action="" class="sidebarSearch">
         <input type="text" name="search" placeholder="搜索..." id="ac"/>
         <input type="submit" value=""/>
     </form>
-
-    <div class="sidebarSep"></div>
-
-    <!-- Next update progress widget -->
-
-
-    <div class="sidebarSep"></div>
-
     <!-- Left navigation -->
     <ul id="menu" class="nav">
         <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>

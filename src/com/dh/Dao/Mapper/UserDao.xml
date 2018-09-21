@@ -54,4 +54,16 @@
         select * from cadets where uid=#{arg0};
     </select>
 
+
+    <select id="selectClockinglate" parameterType="int" resultType="int">
+        select count(1) from clocking where  cbegin LIKE CONCAT(CONCAT('%', #{arg0}), '%') and uid=#{arg1};
+    </select>
+
+    <select id="selectClocking" parameterType="int" resultType="int">
+          select count(1) from clocking where  clatetime LIKE CONCAT(CONCAT('%', #{arg0}), '%') and uid=#{arg1};
+    </select>
+
+    <select id="selectClockingend"  parameterType="int" resultType="int">
+         select count(1) from clocking where cend LIKE CONCAT(CONCAT('%', #{arg0}), '%') and uid=#{arg1};
+    </select>
 </mapper>

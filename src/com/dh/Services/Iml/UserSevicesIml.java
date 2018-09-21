@@ -17,7 +17,7 @@ public class UserSevicesIml implements UserServices {
 
     @Override
     public User userLogin(String username, String password) {
-        return userDao.userLogin(username,password);
+        return userDao.userLogin(username, password);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class UserSevicesIml implements UserServices {
 
     @Override
     public void saveremuse(remuse rr) {
-        rr.setReid(userDao.selectCount()+1);
+        rr.setReid(userDao.selectCount() + 1);
         userDao.saveremuse(rr);
     }
 
@@ -72,24 +72,42 @@ public class UserSevicesIml implements UserServices {
         //获取早上的时间,将此时间化为毫秒值
         calendar.getTime().getTime();
         calendar1.getTime().getTime();
-        //如果时间小于9点，则是上班正常打卡,状态为1
 
-        if(new Date().getTime()<calendar.getTime().getTime()){
-          userDao.employeeclocking(id,1,new Date());
-          return 1;
-        }else if(new Date().getTime()>calendar1.getTime().getTime()) {
+
+        //如果时间小于9点，则是上班正常打卡,状态为1
+        if (new Date().getTime() < calendar.getTime().getTime()) {
+            int count = userDao.selectClockinglate(calendar.get(Calendar.DATE), id);
+            if (count == 0) {
+                userDao.employeeclocking(id, 1, new Date());
+                return 1;
+            }
+            return 4;
+        } else if (new Date().getTime() > calendar1.getTime().getTime()) {
             //下班正常打卡,状态为2
-            userDao.employeeclockingnight(id, 2, new Date());
-            return 2;
+            //下班打卡
+            int count = userDao.selectClockingend(calendar.get(Calendar.DATE), id);
+            if (count == 0) {
+                userDao.employeeclockingnight(id, 2, new Date());
+                return 2;
+            }
+            return 4;
+        } else if (calendar.getTime().getTime() < new Date().getTime() & new Date().getTime() < calendar1.getTime().getTime()) {
+            //迟到或为打卡，如果已打卡，则不能打卡,根据天数
+            //获取当天的打卡次数
+            int count = userDao.selectClockinglate(calendar.get(Calendar.DATE), id);
+            //迟到只允许打一次
+            int latecount = userDao.selectClocking(calendar.get(Calendar.DATE), id);
+            if (count == 0&latecount==0) {
+                userDao.employeeclockinglate(id, 3, new Date());
+                return 3;
+            }
+            return 4;
         }
-        else
-            //迟到或为打卡
-            userDao.employeeclockinglate(id,3,new Date());
-        return 3;
+        return 4;
     }
 
     @Override
-    public Cadets SelectCadets(Integer uid) {
+    public List<Cadets> SelectCadets(Integer uid) {
         return userDao.SelectCadets(uid);
     }
 

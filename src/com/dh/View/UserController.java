@@ -36,6 +36,7 @@ public class UserController {
             return "forward:findMessage.action";
         }
         //转发到员工的主界面
+
         return "forward:findemployee.action";
 
 
@@ -106,7 +107,6 @@ public class UserController {
     @RequestMapping("/employeeclocking.action")
     public String clocking(Integer id, HttpSession session) {
         int struts = userServices.employeeclocking(id);
-        System.out.println(struts);
         session.setAttribute("struts", struts);
         return "employeemenu";
     }
@@ -123,8 +123,9 @@ public class UserController {
     public String showEmployeecadets(HttpSession session){
        User u=(User)session.getAttribute("user");
        //根据uid获取培训通知
-       Cadets cadets= userServices.SelectCadets(u.getUid());
-        return "";
+       List<Cadets> cadets= userServices.SelectCadets(u.getUid());
+        session.setAttribute("cadets",cadets);
+        return "EmployeeCadets";
     }
 
 

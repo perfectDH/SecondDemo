@@ -36,5 +36,11 @@ public interface UserDao {
 
     void employeeclockinglate(Integer id, int i, Date date);
 
-    Cadets SelectCadets(Integer uid);
+    List<Cadets> SelectCadets(Integer uid);
+
+    int selectClockinglate(int i,Integer id);
+
+    int selectClocking(int i,Integer id);
+
+    int selectClockingend(int i, Integer id);
 }

@@ -71,7 +71,27 @@
     <script type="text/javascript" src="js/custom.js"></script>
 
     <script type="text/javascript" src="js/charts/chart.js"></script>--%>
-    <script type="text/javascript" src="js/jquery-1.8.2.min.js"> </script>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#sub").click(function () {
+                <c:if test="${sessionScope.struts eq 4}">
+                alert("不要重复打卡");
+                </c:if>
+                <c:if test="${sessionScope.struts eq 1}">
+                alert("上班打卡");
+                </c:if>
+                <c:if test="${sessionScope.struts eq 2}">
+                alert("迟到打卡");
+                </c:if>
+                <c:if test="${sessionScope.struts eq 3}">
+                alert("下班打卡");
+                </c:if>
+            });
+        });
+    </script>
+
     <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
 
 <body>
@@ -105,14 +125,15 @@
 
     <!-- Left navigation -->
     <ul id="menu" class="nav">
-        <li class="dash"><a href="index.html" title="" class="active"><span>首页</span></a></li>
+        <li class="dash"><a href="findemployee.action" title="" class="active"><span>首页</span></a></li>
         <li class="charts"><a href="showEmplo.action" title="" class="exp"><span>员工查看</span></a>
         </li>
         <li class="forms"><a href="showaward.action" title="" class="exp"><span>奖罚查看</span><strong></strong></a>
         </li>
         <li class="ui"><a href="showMonerytotal.action" title="" class="exp"><span>我的钱包</span></a>
         </li>
-        <li class="widgets"><a href="showEmployeecadets.action" title="" class="exp"><span>培训通知</span><strong></strong></a></li>
+        <li class="widgets"><a href="showEmployeecadets.action" title="" class="exp"><span>培训通知</span><strong></strong></a>
+        </li>
     </ul>
 </div>
 
@@ -217,7 +238,7 @@
                                 </c:if>
                                 <c:if test="${sessionScope.struts eq 3}">
                                     <div class="formRight">
-                                       迟到打卡
+                                        迟到打卡
                                     </div>
                                     <div class="clear"></div>
                                 </c:if>
@@ -242,7 +263,8 @@
 
                             </div>
 
-                            <div class="formSubmit"><input type="submit" value="打卡" class="redB"></div>
+                            <div class="formSubmit"><input type="submit" value="打卡" class="redB" id="sub">
+                            </div>
                             <div class="clear"></div>
                         </fieldset>
                     </form>
