@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class AdminController {
@@ -105,6 +106,9 @@ public class AdminController {
     public String forAdmindept(HttpSession session) {
         List<Dept> deptlist = adminServices.selectDept();
         session.setAttribute("deptlist", deptlist);
+        //查询所有职位
+        List<posi> posiList=adminServices.SelectAllPosi();
+        session.setAttribute("posiList", posiList);
         return "AdminDept";
     }
 
@@ -120,6 +124,46 @@ public class AdminController {
     public String addPosi(Integer deptid, String posiname) {
         adminServices.addPosi(deptid, posiname);
         return "AdminDept";
+    }
+
+    //修改部门
+    @RequestMapping("/updateDept.action")
+    public String updateDept(String updateDeptname,Integer Deptid){
+        if(updateDeptname!=null&updateDeptname!=""){
+            adminServices.updateDeptname(updateDeptname,Deptid);
+        }
+        return "forward:addDept.action";
+    }
+//修改职位
+    @RequestMapping("/updatePosi.action")
+    public String updatePosi(String updatePosiname,Integer Posiid){
+        if(updatePosiname!=null&updatePosiname!=""){
+            adminServices.updatePosi(updatePosiname,Posiid);
+        }
+        return "forward:addDept.action";
+    }
+
+
+    //删除部门和删除职位
+    @RequestMapping("/deleteDept.action")
+    public String deleteDept(Integer Deptid,HttpSession session){
+        boolean flag=adminServices.deleteDept(Deptid);
+        String error="删除失败，其下有员工";
+        if(!flag){
+            session.setAttribute("error",error);
+        }
+        return "forward:addDept.action";
+
+    }
+
+    @RequestMapping("/deletePosi.action")
+    public String deletePosi(Integer Posiid,HttpSession session){
+        boolean flag=adminServices.deletePosi(Posiid);
+        String error="删除失败，其下有员工";
+        if(!flag){
+            session.setAttribute("wrong",error);
+        }
+        return "forward:addDept.action";
     }
 
 
@@ -209,6 +253,21 @@ public class AdminController {
         //向培训表插入一些东西
         adminServices.saveCadets(cadets);
         return "Adminindex";
+    }
+
+
+
+
+
+    //薪资管理
+    @RequestMapping("/showpay.action")
+    public String showpay(HttpSession session){
+        //查询员工的打卡记录，计算基本薪资
+        List<EmployeePay> payMap=adminServices.selectClocking();
+        session.setAttribute("payMap",payMap);
+        //查询用户是否有奖惩记录
+
+        return "AdminPay";
     }
 
 

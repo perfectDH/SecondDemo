@@ -111,5 +111,15 @@ public class UserSevicesIml implements UserServices {
         return userDao.SelectCadets(uid);
     }
 
+    @Override
+    public List<bonus> selectBonus(Integer uid) {
+        return userDao.selectBonus(uid);
+    }
+
+    @Override
+    public List<EmployeePay> selectPay(Integer uid) {
+        return userDao.selectPay(uid);
+    }
+
 
 }

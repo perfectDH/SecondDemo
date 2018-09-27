@@ -1,9 +1,6 @@
 package com.dh.Dao;
 
-import com.dh.JavaBean.Cadets;
-import com.dh.JavaBean.Recruit;
-import com.dh.JavaBean.User;
-import com.dh.JavaBean.remuse;
+import com.dh.JavaBean.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.Date;
@@ -43,4 +40,8 @@ public interface UserDao {
     int selectClocking(int i,Integer id);
 
     int selectClockingend(int i, Integer id);
+
+    List<bonus> selectBonus(Integer uid);
+
+    List<EmployeePay> selectPay(Integer uid);
 }

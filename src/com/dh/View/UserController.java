@@ -112,7 +112,7 @@ public class UserController {
     }
 
     @RequestMapping("/showEmplo.action")
-    public String showEmplo(HttpSession session){
+    public String showEmplo(HttpSession session) {
         List<Dept> deptlist = adminServices.selectDept();
         session.setAttribute("deptshow", deptlist);
         return "EmployeeShow";
@@ -120,13 +120,29 @@ public class UserController {
 
     //查询培训通知
     @RequestMapping("/showEmployeecadets.action")
-    public String showEmployeecadets(HttpSession session){
-       User u=(User)session.getAttribute("user");
-       //根据uid获取培训通知
-       List<Cadets> cadets= userServices.SelectCadets(u.getUid());
-        session.setAttribute("cadets",cadets);
+    public String showEmployeecadets(HttpSession session) {
+        User u = (User) session.getAttribute("user");
+        //根据uid获取培训通知
+        List<Cadets> cadets = userServices.SelectCadets(u.getUid());
+        session.setAttribute("cadets", cadets);
         return "EmployeeCadets";
     }
 
 
+    //查询奖罚记录
+    @RequestMapping("/showaward.action")
+    public String showaward(HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        List<bonus> blist = userServices.selectBonus(user.getUid());
+        session.setAttribute("blist",blist);
+        return "EmployeeBonus";
+    }
+    //产看薪资
+    @RequestMapping("/showMonerytotal.action")
+    public String showMonerytotal(HttpSession session){
+        User user = (User) session.getAttribute("user");
+        List<EmployeePay> eplist=userServices.selectPay(user.getUid());
+        session.setAttribute("eplist",eplist);
+        return "EmployeePay";
+    }
 }

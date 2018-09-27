@@ -11,6 +11,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Title</title>
     <style type="text/css">
+
+
         .bigdiv {
             width: 410px;
             height: 400px;
@@ -70,7 +72,7 @@
 
     </script>
 </head>
-<body>
+<body background="bg_login.jpg">
 <form action="/loginServlet.action">
     <div class="bigdiv">
         <div class="left">

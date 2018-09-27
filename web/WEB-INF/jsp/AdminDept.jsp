@@ -31,85 +31,130 @@
 
     </style>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <%--<script type="text/javascript" src="js/jquery.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/spinner/ui.spinner.js"></script>
-    <script type="text/javascript" src="js/plugins/spinner/jquery.mousewheel.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/spinner/ui.spinner.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/spinner/jquery.mousewheel.js"></script>--%>
 
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <%--<script type="text/javascript" src="js/jquery-ui.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>
-    <script type="text/javascript" src="js/plugins/charts/jquery.flot.js"></script>
-    <script type="text/javascript" src="js/plugins/charts/jquery.flot.orderBars.js"></script>
-    <script type="text/javascript" src="js/plugins/charts/jquery.flot.pie.js"></script>
-    <script type="text/javascript" src="js/plugins/charts/jquery.flot.resize.js"></script>
-    <script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/charts/excanvas.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/charts/jquery.flot.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/charts/jquery.flot.orderBars.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/charts/jquery.flot.pie.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/charts/jquery.flot.resize.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/charts/jquery.sparkline.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/forms/uniform.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.cleditor.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.validationEngine-en.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.validationEngine.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/autogrowtextarea.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.maskedinput.min.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.dualListBox.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>
-    <script type="text/javascript" src="js/plugins/forms/chosen.jquery.min.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/forms/uniform.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.cleditor.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.validationEngine-en.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.validationEngine.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.tagsinput.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/autogrowtextarea.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.maskedinput.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.dualListBox.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/jquery.inputlimiter.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/forms/chosen.jquery.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/wizard/jquery.form.js"></script>
-    <script type="text/javascript" src="js/plugins/wizard/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="js/plugins/wizard/jquery.form.wizard.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/wizard/jquery.form.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/wizard/jquery.validate.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/wizard/jquery.form.wizard.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>
-    <script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>
-    <script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>
-    <script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/uploader/plupload.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/uploader/plupload.html5.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/uploader/plupload.html4.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/uploader/jquery.plupload.queue.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/tables/datatable.js"></script>
-    <script type="text/javascript" src="js/plugins/tables/tablesort.min.js"></script>
-    <script type="text/javascript" src="js/plugins/tables/resizable.min.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/tables/datatable.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/tables/tablesort.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/tables/resizable.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/ui/jquery.tipsy.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.progress.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.timeentry.min.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.colorpicker.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.breadcrumbs.js"></script>
-    <script type="text/javascript" src="js/plugins/ui/jquery.sourcerer.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.tipsy.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.collapsible.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.prettyPhoto.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.progress.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.timeentry.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.colorpicker.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.jgrowl.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.breadcrumbs.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/ui/jquery.sourcerer.js"></script>--%>
 
-    <script type="text/javascript" src="js/plugins/calendar.min.js"></script>
-    <script type="text/javascript" src="js/plugins/elfinder.min.js"></script>
+    <%--<script type="text/javascript" src="js/plugins/calendar.min.js"></script>--%>
+    <%--<script type="text/javascript" src="js/plugins/elfinder.min.js"></script>--%>
 
-    <script type="text/javascript" src="js/custom.js"></script>
+    <%--<script type="text/javascript" src="js/custom.js"></script>--%>
 
-    <script type="text/javascript" src="js/charts/chart.js"></script>
+    <%--<script type="text/javascript" src="js/charts/chart.js"></script>--%>
+
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 
 
     <%--<script type="text/javascript">--%>
-        <%--$(function () {--%>
-            <%--//绑定部门的下拉框改变事件--%>
-            <%--$("#sel").change(function () {--%>
-                <%--$.ajax({--%>
-                    <%--url: "selectDept.action",--%>
-                    <%--type: "post",--%>
-                    <%--dataType: "json",--%>
-                    <%--success: function (data) {--%>
-                        <%--$("#sel option:gt(0)").remove();--%>
-                        <%--$.each(data, function (idx, item) {--%>
-                            <%--var opt = "  <option value='" + item.deptid + "'>" + item.deptname + "</option>"--%>
-                            <%--$("#sel").append(opt);--%>
-                        <%--});--%>
-                    <%--}--%>
-                <%--});--%>
+    <%--$(function () {--%>
+    <%--//绑定部门的下拉框改变事件--%>
+    <%--$("#sel").change(function () {--%>
+    <%--$.ajax({--%>
+    <%--url: "selectDept.action",--%>
+    <%--type: "post",--%>
+    <%--dataType: "json",--%>
+    <%--success: function (data) {--%>
+    <%--$("#sel option:gt(0)").remove();--%>
+    <%--$.each(data, function (idx, item) {--%>
+    <%--var opt = "  <option value='" + item.deptid + "'>" + item.deptname + "</option>"--%>
+    <%--$("#sel").append(opt);--%>
+    <%--});--%>
+    <%--}--%>
+    <%--});--%>
 
-            <%--});--%>
-        <%--});--%>
+    <%--});--%>
+    <%--});--%>
 
     <%--</script>--%>
-    <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
+    <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  -->
+<script type="text/javascript">
+    $(function () {
+        //部门输入框隐藏
+
+        $(".updateDept").click(function () {
+            var a=$(this);
+            var id=a.prev().val();
+            var name=a.parent().parent().children().find("input").val();
+            if(a.text()=="修改"){
+                a.text("保存");
+                a.parent().parent().children().find("span").hide();
+                a.parent().parent().children().find("input").show();
+            }else{
+                a.text("修改");
+                //跳转
+                window.location.href = "http://localhost:8080/updateDept.action?updateDeptname="+name+"&Deptid="+id+"";
+
+            }
+
+        });
+
+
+
+        $(".updatePosi").click(function () {
+            var a=$(this);
+            var id=a.prev().val();
+            var name=a.parent().parent().children().find("input").val();
+            if(a.text()=="修改"){
+                a.text("保存");
+                a.parent().parent().children().find("span").hide();
+                a.parent().parent().children().find("input").show();
+            }else{
+                a.text("修改");
+                //跳转
+                window.location.href = "http://localhost:8080/updatePosi.action?updatePosiname="+name+"&Posiid="+id+"";
+
+            }
+        });
+
+
+    });
+</script>
+
+</head>
 
 
 <body>
@@ -136,7 +181,8 @@
 
         </li>
         <li class="widgets"><a href="showpay.action" title="" class="exp"><span>薪资管理</span><strong></strong></a></li>
-    </ul></div>
+    </ul>
+</div>
 
 
 <!-- Right side -->
@@ -182,21 +228,55 @@
                 <div class="widget">
                     <div class="title">
                         <img src="images/icons/dark/money.png" alt="" class="titleIcon"/>
-                        <h6>添加部门</h6>
+                        <h6>部门管理</h6>
 
                     </div>
                     <div class="newOrder">
-                        <div>
+                        <%--
+                                                <div>
+                                                    <form action="/addDeptmessage.action">
+                                                        <div class="zhaopin">
+                                                            部门名称:<input type="text" name="deptname"/>
+                                                            <input type="submit" class="btn" value="添加">
+                                                        </div>
+                                                    </form>
+
+                                                </div>
+                        --%>
+                        <table cellpadding="0" cellspacing="0" width="100%" class="sTable">
+                            <thead id="thead">
+                            <tr>
+                                <td width="40">部门标号</td>
+                                <td width="40">部门名称</td>
+                                <%--<td width="90">部门创建时间</td>--%>
+                                <td width="40">管理</td>
+                                <td width="40">管理</td>
+                            </tr>
+                            </thead>
+                            <tbody id="tbody">
                             <form action="/addDeptmessage.action">
                                 <div class="zhaopin">
                                     部门名称:<input type="text" name="deptname"/>
                                     <input type="submit" class="btn" value="添加">
                                 </div>
                             </form>
+                            <tr>
+                                ${sessionScope.error}
+                            </tr>
+                            <c:forEach items="${sessionScope.deptlist}" var="deptlist">
 
-                        </div>
-
-
+                                <tr>
+                                    <td align='center' class="Deptid">${deptlist.deptid}</td>
+                                    <td align='center' class="nameInput"><span>${deptlist.deptname}</span><input hidden type="text" value="${deptlist.deptname}" class="DeptVal" /></td>
+                                          <%--<td align='center'>--%>
+                                        <%--<fmt:formatDate value=" ${deptlist.dcreatetime}" pattern="yyyy-MM-dd"/>--%>
+                                       <%--</td>--%>
+                                    <td align='center'><input type="hidden" value="${deptlist.deptid}"/><a href="#" class="updateDept">修改</a></td>
+                                    <td align='center'><a href="deleteDept.action?Deptid=${deptlist.deptid}">删除</a></td>
+                                </tr>
+                            </c:forEach>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <!-- Purchase info widget -->
@@ -210,16 +290,54 @@
                         添加职位</h6>
                     </div>
                     <div class="wUserInfo" id="addemplo">
-                        <form action="addPosi.action">
-                        选择部门:<select id="sel" name="deptid">
-                            <option value="0">请选择部门</option>
-                            <c:forEach items="${sessionScope.deptlist}" var="dept">
-                                <option value='${dept.deptid}' >${dept.deptname}</option>
+                        <%-- <form action="addPosi.action">
+                             选择部门:<select id="sel" name="deptid">
+                             <option value="0">请选择部门</option>
+                             <c:forEach items="${sessionScope.deptlist}" var="dept">
+                                 <option value='${dept.deptid}'>${dept.deptname}</option>
+                             </c:forEach>
+                         </select>
+                             <input type="text" name="posiname" class="btn">
+                             <input type="submit" value="添加"/>
+                         </form>--%>
+                        <table cellpadding="0" cellspacing="0" width="100%" class="sTable">
+                            <thead id="thead1">
+                            <tr>
+                                <td width="40">职位</td>
+                                <td width="40">职位名称</td>
+                                <td width="40">管理</td>
+                                <td width="40">管理</td>
+                            </tr>
+                            </thead>
+                            <tbody id="tbody1">
+                            <form action="addPosi.action">
+                                选择部门:<select id="sel" name="deptid">
+                                <option value="0">请选择部门</option>
+                                <c:forEach items="${sessionScope.deptlist}" var="dept">
+                                    <option value='${dept.deptid}'>${dept.deptname}</option>
+                                </c:forEach>
+                            </select>
+                                <input type="text" name="posiname" class="btn">
+                                <input type="submit" value="添加"/>
+                            </form>
+                            <tr>
+                                ${sessionScope.wrong}
+                            </tr>
+                            <c:forEach items="${sessionScope.posiList}" var="posiList">
+                                <tr>
+                                    <td align='center' id="posiid" name="posiid">${posiList.posiid}</td>
+                                    <td align='center' class="nameInput"><span>${posiList.posiname}</span><input hidden type="text" value="${posiList.posiname}" class="DeptVal" /></td>
+
+                                    <%--<td align='center' id="posiInput"><input id="PosiVal"/></td>
+                                    <td align='center' id="posiname">${posiList.posiname}</td>--%>
+                                        <%--  <td align='center'>${deptlist.dcreatetime}</td>--%>
+                                    <td align='center'><input type="hidden" value="${posiList.posiid}"/><a href="#" class="updatePosi">修改</a></td>
+                                    <td align='center'><a href="deletePosi.action?Posiid=${posiList.posiid}">删除</a></td>
+                                </tr>
                             </c:forEach>
-                        </select>
-                        <input type="text" name="posiname" class="btn">
-                        <input type="submit" value="添加"/>
-                        </form>
+                            </tbody>
+                        </table>
+
                     </div>
 
                 </div>

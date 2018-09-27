@@ -7,23 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0256c546-c991-4f85-8f15-514f9193dff1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeCadets.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/EmployeePay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/bonus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminPay.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeBonus.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeePay.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../SecondDemo/web/bg_login.jpg" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SecondDemo/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/UserDao.xml" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/UserDao.xml" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/UserDao.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Cadets.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Cadets.java" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/UserServices.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/UserServices.java" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java" afterPath="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdeatsMessage.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdeatsMessage.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/Register.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/UserMenu.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminUpdateEmplo.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminUpdateEmplo.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeShow.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeShow.jsp" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Adminindex.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Adminindex.jsp" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserLogin.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserLogin.jsp" />
       <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/employeemenu.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/employeemenu.jsp" />
-      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/userRequest.jsp" afterPath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/userRequest.jsp" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/member.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/分享财富.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/团队信息记录.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/我的团队.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/我的资料.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/我的钱包.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/接受帮助记录.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/提供帮助所得利息.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/提供帮助记录.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/收获财富.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/经理奖钱包记录.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SecondDemo/web/门票管理.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,31 +59,144 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminDept.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="184" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+              <folding>
+                <element signature="e#1572#1580#0" expanded="true" />
+                <element signature="e#2094#2100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="127" column="30" lean-forward="false" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+            <state relative-caret-position="248">
+              <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminAdets.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp">
+      <file leaf-file-name="AdminServicesIml.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1308">
-              <caret line="189" column="11" lean-forward="false" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+            <state relative-caret-position="369">
+              <caret line="238" column="27" lean-forward="false" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="27" />
+              <folding>
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1765#1766#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1996#1997#0" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
+                <element signature="e#3978#3979#0" expanded="true" />
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#5765#5766#0" expanded="true" />
+                <element signature="e#5812#5813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeShow.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeShow.jsp">
+      <file leaf-file-name="AdminDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="276" column="18" lean-forward="true" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+            <state relative-caret-position="627">
+              <caret line="142" column="38" lean-forward="false" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
+              <folding>
+                <marker date="1538062797217" expanded="true" signature="263:338" ph="select admin... manager" />
+                <marker date="1538062797217" expanded="true" signature="418:525" ph="insert into recruit... " />
+                <marker date="1538062797217" expanded="true" signature="594:614" ph="select * fro... remuse" />
+                <marker date="1538062797217" expanded="true" signature="712:751" ph="select * fro... remuse" />
+                <marker date="1538062797217" expanded="true" signature="850:891" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="968:1005" ph="delete from remuse... " />
+                <marker date="1538062797217" expanded="true" signature="1077:1105" ph="select count... recruit" />
+                <marker date="1538062797217" expanded="true" signature="1187:1220" ph="update remuse... " />
+                <marker date="1538062797217" expanded="true" signature="1295:1339" ph="update user... " />
+                <marker date="1538062797217" expanded="true" signature="1417:1435" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="1486:1548" ph="insert into dept... " />
+                <marker date="1538062797217" expanded="true" signature="1619:1637" ph="select * fro... dept" />
+                <marker date="1538062797217" expanded="true" signature="1688:1745" ph="insert into posi... " />
+                <marker date="1538062797217" expanded="true" signature="1839:1875" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="1973:2012" ph="select * fro... posi" />
+                <marker date="1538062797217" expanded="true" signature="2076:2152" ph="update user... " />
+                <marker date="1538062797217" expanded="true" signature="2242:2297" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="2393:2439" ph="select deptn... dept" />
+                <marker date="1538062797217" expanded="true" signature="2536:2601" ph="select posin... posi" />
+                <marker date="1538062797217" expanded="true" signature="2691:2752" ph="select count... clocking" />
+                <marker date="1538062797217" expanded="true" signature="2848:2887" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="2963:3012" ph="update user... " />
+                <marker date="1538062797217" expanded="true" signature="3090:3228" ph="insert into cadets... " />
+                <marker date="1538062797217" expanded="true" signature="3326:3355" ph="select count... clocking" />
+                <marker date="1538062797217" expanded="true" signature="3326:3387" ph="select count... clocking" />
+                <marker date="1538062797217" expanded="true" signature="3482:3543" ph="select count... clocking" />
+                <marker date="1538062797217" expanded="true" signature="3639:3700" ph="select count... clocking" />
+                <marker date="1538062797217" expanded="true" signature="3775:3793" ph="select * fro... user" />
+                <marker date="1538062797217" expanded="true" signature="3868:3886" ph="select * fro... posi" />
+                <marker date="1538062797217" expanded="true" signature="3981:4025" ph="select sum(b... bonus" />
+                <marker date="1538062797217" expanded="true" signature="4125:4171" ph="select sum(b... bonus" />
+                <marker date="1538062797217" expanded="true" signature="4250:4286" ph="update dept... " />
+                <marker date="1538062797217" expanded="true" signature="4250:4309" ph="update dept... " />
+                <marker date="1538062797217" expanded="true" signature="4384:4443" ph="update posi... " />
+                <marker date="1538062797217" expanded="true" signature="4517:4554" ph="delete from dept... " />
+                <marker date="1538062797217" expanded="true" signature="4629:4666" ph="delete from posi... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminPay.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminPay.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-689">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,68 +205,18 @@
       <file leaf-file-name="UserMenu.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="282" column="118" lean-forward="true" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="118" />
+            <state relative-caret-position="38">
+              <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeCadets.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeCadets.jsp">
+      <file leaf-file-name="AdminLogin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1006">
-              <caret line="181" column="29" lean-forward="true" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employeemenu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/employeemenu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2530">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminSelectEmployee.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1925">
-              <caret line="191" column="11" lean-forward="false" selection-start-line="191" selection-start-column="11" selection-end-line="191" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUpdateEmplo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminUpdateEmplo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5016">
-              <caret line="111" column="11" lean-forward="false" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminAndEmployee.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1093">
-              <caret line="111" column="11" lean-forward="false" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminDept.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2215">
-              <caret line="121" column="11" lean-forward="false" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+            <state relative-caret-position="-22">
+              <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -164,6 +248,7 @@
       <find>新增员工</find>
       <find>search</find>
       <find>add</find>
+      <find>requestr</find>
     </findStrings>
     <replaceStrings>
       <replace>js</replace>
@@ -182,57 +267,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Adminindex.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminAndEmployee.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminDept.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/JavaBean/UserDetils.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminDept.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Adminindex.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/Services/AdminServices.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/Dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
-        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/AdminServicesIml.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/UserMenu.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminUpdateEmplo.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminSelectEmployee.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/View/UserController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/employeemenu.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminUpdateEmplo.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/EmployeeShow.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminAdets.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminAndEmployee.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminAdeatsMessage.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/Services/AdminServices.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/AdminServicesIml.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/Dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminAdeatsMessage.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/JavaBean/Cadets.java" />
-        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/employeemenu.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dh/View/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/UserMenu.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/userRequest.jsp" />
         <option value="$PROJECT_DIR$/src/com/dh/Services/UserServices.java" />
         <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/UserSevicesIml.java" />
         <option value="$PROJECT_DIR$/src/com/dh/Dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/EmployeeCadets.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/AdminServicesIml.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/AdminServices.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminPay.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/AdminServices.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/AdminServicesIml.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminDept.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminDept.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/AdminServices.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/AdminServicesIml.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/AdminDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/AdminPay.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/JavaBean/Cadets.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/JavaBean/bonus.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/EmployeeBonus.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/UserServices.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Services/Iml/UserSevicesIml.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/Dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dh/JavaBean/EmployeePay.java" />
         <option value="$PROJECT_DIR$/src/com/dh/Dao/Mapper/UserDao.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/UserDao.xml" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/employeemenu.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdeatsMessage.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dh/View/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/EmployeePay.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserLogin.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Adminindex.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java" />
         <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminUpdateEmplo.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeShow.jsp" />
+        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml" />
+        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminPay.jsp" />
         <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/userRequest.jsp" />
-        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/UserServices.java" />
-        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java" />
-        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java" />
-        <option value="$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeCadets.jsp" />
       </list>
     </option>
   </component>
@@ -250,8 +335,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-400" />
-    <option name="y" value="218" />
+    <option name="x" value="237" />
+    <option name="y" value="104" />
     <option name="width" value="1400" />
     <option name="height" value="766" />
   </component>
@@ -274,7 +359,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,24 +428,11 @@
               <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SecondDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SecondDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecondDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,17 +447,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SecondDemo\web" />
+      <recent name="D:\SecondDemo\web\WEB-INF\jsp" />
+      <recent name="D:\SecondDemo\web\WEB-INF" />
+      <recent name="D:\SecondDemo\web\WEB-INF\images\ui" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SecondDemo\web\WEB-INF\lib" />
       <recent name="D:\SecondDemo\web\WEB-INF\js" />
       <recent name="D:\SecondDemo\web\WEB-INF" />
       <recent name="D:\SecondDemo\web" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SecondDemo\web\WEB-INF\jsp" />
-      <recent name="D:\SecondDemo\web" />
-      <recent name="D:\SecondDemo\web\WEB-INF" />
-      <recent name="D:\SecondDemo\web\WEB-INF\images\ui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -584,7 +656,13 @@
       <workItem from="1537253255156" duration="7855000" />
       <workItem from="1537319016149" duration="21418000" />
       <workItem from="1537413406721" duration="7705000" />
-      <workItem from="1537499293135" duration="12295000" />
+      <workItem from="1537499293135" duration="12945000" />
+      <workItem from="1537670872775" duration="6124000" />
+      <workItem from="1537854597269" duration="2751000" />
+      <workItem from="1537923148254" duration="10634000" />
+      <workItem from="1537949257581" duration="188000" />
+      <workItem from="1538015538411" duration="6364000" />
+      <workItem from="1538059115162" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="项目整合git">
       <created>1536311960160</created>
@@ -649,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537417200230</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="准备资金薪酬">
+      <created>1537517034392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537517034392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178789000" />
+    <option name="totallyTimeSpent" value="210422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +762,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23603192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25427595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -685,10 +770,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2086659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22576967" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29646522" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1582618" sideWeight="0.6198198" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20439914" sideWeight="0.6198198" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21620172" sideWeight="0.38018018" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21620172" sideWeight="0.38018018" order="2" side_tool="true" content_ui="tabs" />
@@ -712,7 +797,9 @@
     <MESSAGE value="新增员工的功能未实现" />
     <MESSAGE value="新增员工与部门职位管理的实现" />
     <MESSAGE value="打卡和培训已完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡和培训已完成" />
+    <MESSAGE value="准备资金薪酬" />
+    <MESSAGE value="面试回馈，和薪资奖罚的页面显示有问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试回馈，和薪资奖罚的页面显示有问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,46 +811,41 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java</url>
+          <url>file://$PROJECT_DIR$/src/com/dh/Services/Iml/UserSevicesIml.java</url>
           <line>99</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dh/View/AdminController.java</url>
+          <line>265</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dh/View/UserController.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/lib/fastjson-1.1.34.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/employee.java" />
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/remuseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/remuse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Jdk.1.80/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1904" column="22" lean-forward="false" selection-start-line="1904" selection-start-column="22" selection-end-line="1904" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/out/production/SecondDemo/com/dh/View/AdminController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -796,13 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="21" column="9" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -842,18 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/经理奖钱包记录.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="83" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="362" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="23" column="24" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="23" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,40 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Cadets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#921#922#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#1001#1002#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1113#1114#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1253#1254#0" expanded="false" />
-            <element signature="e#1289#1290#0" expanded="false" />
-            <element signature="e#1347#1348#0" expanded="false" />
-            <element signature="e#1397#1398#0" expanded="false" />
-            <element signature="e#1431#1432#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
-            <element signature="e#1511#1512#0" expanded="false" />
-            <element signature="e#1553#1554#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1659#1660#0" expanded="false" />
-            <element signature="e#1697#1698#0" expanded="false" />
-            <element signature="e#1728#1729#0" expanded="false" />
-            <element signature="e#1754#1755#0" expanded="false" />
-            <element signature="e#1793#1794#0" expanded="false" />
-            <element signature="e#1823#1824#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,67 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="109" lean-forward="false" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
-          <folding>
-            <marker date="1537414619269" expanded="true" signature="263:338" ph="select admin... manager" />
-            <marker date="1537414619269" expanded="true" signature="418:525" ph="insert into recruit... " />
-            <marker date="1537414619269" expanded="true" signature="594:614" ph="select * fro... remuse" />
-            <marker date="1537414619269" expanded="true" signature="712:751" ph="select * fro... remuse" />
-            <marker date="1537414619269" expanded="true" signature="850:891" ph="select * fro... user" />
-            <marker date="1537414619269" expanded="true" signature="968:1005" ph="delete from remuse... " />
-            <marker date="1537414619269" expanded="true" signature="1077:1105" ph="select count... recruit" />
-            <marker date="1537414619269" expanded="true" signature="1187:1220" ph="update remuse... " />
-            <marker date="1537414619269" expanded="true" signature="1295:1339" ph="update user... " />
-            <marker date="1537414619269" expanded="true" signature="1417:1435" ph="select * fro... user" />
-            <marker date="1537414619269" expanded="true" signature="1486:1548" ph="insert into dept... " />
-            <marker date="1537414619269" expanded="true" signature="1619:1637" ph="select * fro... dept" />
-            <marker date="1537414619269" expanded="true" signature="1688:1745" ph="insert into posi... " />
-            <marker date="1537414619269" expanded="true" signature="1839:1875" ph="select * fro... user" />
-            <marker date="1537414619269" expanded="true" signature="1973:2012" ph="select * fro... posi" />
-            <marker date="1537414619269" expanded="true" signature="2076:2152" ph="update user... " />
-            <marker date="1537414619269" expanded="true" signature="2242:2297" ph="select * fro... user" />
-            <marker date="1537414619269" expanded="true" signature="2393:2439" ph="select deptn... dept" />
-            <marker date="1537414619269" expanded="true" signature="2536:2601" ph="select posin... posi" />
-            <marker date="1537414619269" expanded="true" signature="2691:2752" ph="select count... clocking" />
-            <marker date="1537414619269" expanded="true" signature="2848:2887" ph="select * fro... user" />
-            <marker date="1537414619269" expanded="true" signature="2963:3012" ph="update user... " />
-            <marker date="1537414619269" expanded="true" signature="3090:3228" ph="insert into cadets... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Recruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,65 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1278">
-          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
-          <folding>
-            <marker date="1537506821421" expanded="true" signature="265:327" ph="select usern... user" />
-            <marker date="1537506821421" expanded="true" signature="403:424" ph="select * fro... recruit" />
-            <marker date="1537506821421" expanded="true" signature="527:566" ph="select * fro... recruit" />
-            <marker date="1537506821421" expanded="true" signature="664:700" ph="select * fro... user" />
-            <marker date="1537506821421" expanded="true" signature="777:886" ph="INSERT into remuse... " />
-            <marker date="1537506821421" expanded="true" signature="958:985" ph="select count... remuse" />
-            <marker date="1537506821421" expanded="true" signature="1087:1130" ph="select * fro... remuse" />
-            <marker date="1537506821421" expanded="true" signature="1225:1271" ph="select deptn... dept" />
-            <marker date="1537506821421" expanded="true" signature="1365:1411" ph="select posin... posi" />
-            <marker date="1537506821421" expanded="true" signature="1486:1558" ph="insert into clocking... " />
-            <marker date="1537506821421" expanded="true" signature="1639:1709" ph="insert into clocking... " />
-            <marker date="1537506821421" expanded="true" signature="1790:1865" ph="insert into clocking... " />
-            <marker date="1537506821421" expanded="true" signature="1961:1999" ph="select * fro... cadets" />
-            <marker date="1537506821421" expanded="true" signature="2099:2128" ph="select count... clocking" />
-            <marker date="1537506821421" expanded="true" signature="2099:2197" ph="select count... clocking" />
-            <marker date="1537506821421" expanded="true" signature="2294:2395" ph="select count... clocking" />
-            <marker date="1537506821421" expanded="true" signature="2495:2590" ph="select count... clocking" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdeatsMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Adminindex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1225">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,93 +972,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/userRequest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/UserServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="109" column="23" lean-forward="false" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="189" column="11" lean-forward="false" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="127" column="30" lean-forward="false" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1093">
-          <caret line="111" column="11" lean-forward="false" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2215">
-          <caret line="121" column="11" lean-forward="false" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1925">
-          <caret line="191" column="11" lean-forward="false" selection-start-line="191" selection-start-column="11" selection-end-line="191" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminUpdateEmplo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5016">
+        <state relative-caret-position="2442">
           <caret line="111" column="11" lean-forward="false" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
           <folding />
         </state>
@@ -1150,32 +985,384 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/employeemenu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2530">
+        <state relative-caret-position="242">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeShow.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="276" column="18" lean-forward="true" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+        <state relative-caret-position="6072">
+          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp">
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminSelectEmployee.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="282" column="118" lean-forward="true" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="118" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/经理奖钱包记录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6446">
+          <caret line="293" column="75" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="293" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdets.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3674">
+          <caret line="167" column="80" lean-forward="false" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAndEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="111" column="11" lean-forward="false" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Cadets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/bonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#513#514#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminAdeatsMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeCadets.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="181" column="29" lean-forward="true" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
+        <state relative-caret-position="527">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/UserServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/UserSevicesIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="32" />
+          <folding>
+            <element signature="e#3555#3556#0" expanded="true" />
+            <element signature="e#3602#3603#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3716#3717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeePay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3454">
+          <caret line="157" column="68" lean-forward="false" selection-start-line="157" selection-start-column="68" selection-end-line="157" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/EmployeeBonus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/EmployeePay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#350#351#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#455#456#0" expanded="false" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#883#884#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1099#1100#0" expanded="false" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1199#1200#0" expanded="false" />
+            <element signature="e#1229#1230#0" expanded="false" />
+            <element signature="e#1273#1274#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <marker date="1538021619193" expanded="true" signature="265:327" ph="select usern... user" />
+            <marker date="1538021619193" expanded="true" signature="403:424" ph="select * fro... recruit" />
+            <marker date="1538021619193" expanded="true" signature="527:566" ph="select * fro... recruit" />
+            <marker date="1538021619193" expanded="true" signature="664:700" ph="select * fro... user" />
+            <marker date="1538021619193" expanded="true" signature="777:886" ph="INSERT into remuse... " />
+            <marker date="1538021619193" expanded="true" signature="958:985" ph="select count... remuse" />
+            <marker date="1538021619193" expanded="true" signature="1087:1130" ph="select * fro... remuse" />
+            <marker date="1538021619193" expanded="true" signature="1225:1271" ph="select deptn... dept" />
+            <marker date="1538021619193" expanded="true" signature="1365:1411" ph="select posin... posi" />
+            <marker date="1538021619193" expanded="true" signature="1486:1558" ph="insert into clocking... " />
+            <marker date="1538021619193" expanded="true" signature="1639:1709" ph="insert into clocking... " />
+            <marker date="1538021619193" expanded="true" signature="1790:1865" ph="insert into clocking... " />
+            <marker date="1538021619193" expanded="true" signature="1961:1999" ph="select * fro... cadets" />
+            <marker date="1538021619193" expanded="true" signature="2099:2128" ph="select count... clocking" />
+            <marker date="1538021619193" expanded="true" signature="2099:2197" ph="select count... clocking" />
+            <marker date="1538021619193" expanded="true" signature="2294:2395" ph="select count... clocking" />
+            <marker date="1538021619193" expanded="true" signature="2494:2589" ph="select count... clocking" />
+            <marker date="1538021619193" expanded="true" signature="2684:2721" ph="select * fro... bonus" />
+            <marker date="1538021619193" expanded="true" signature="2819:2854" ph="select * fro... pay" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/Adminindex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="373" column="0" lean-forward="false" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/JavaBean/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/userRequest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2860">
+          <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/AdminServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Services/Iml/AdminServicesIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="238" column="27" lean-forward="false" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="27" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#5765#5766#0" expanded="true" />
+            <element signature="e#5812#5813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding>
+            <element signature="e#1572#1580#0" expanded="true" />
+            <element signature="e#2094#2100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/Dao/Mapper/AdminDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="142" column="38" lean-forward="false" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
+          <folding>
+            <marker date="1538062797217" expanded="true" signature="263:338" ph="select admin... manager" />
+            <marker date="1538062797217" expanded="true" signature="418:525" ph="insert into recruit... " />
+            <marker date="1538062797217" expanded="true" signature="594:614" ph="select * fro... remuse" />
+            <marker date="1538062797217" expanded="true" signature="712:751" ph="select * fro... remuse" />
+            <marker date="1538062797217" expanded="true" signature="850:891" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="968:1005" ph="delete from remuse... " />
+            <marker date="1538062797217" expanded="true" signature="1077:1105" ph="select count... recruit" />
+            <marker date="1538062797217" expanded="true" signature="1187:1220" ph="update remuse... " />
+            <marker date="1538062797217" expanded="true" signature="1295:1339" ph="update user... " />
+            <marker date="1538062797217" expanded="true" signature="1417:1435" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="1486:1548" ph="insert into dept... " />
+            <marker date="1538062797217" expanded="true" signature="1619:1637" ph="select * fro... dept" />
+            <marker date="1538062797217" expanded="true" signature="1688:1745" ph="insert into posi... " />
+            <marker date="1538062797217" expanded="true" signature="1839:1875" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="1973:2012" ph="select * fro... posi" />
+            <marker date="1538062797217" expanded="true" signature="2076:2152" ph="update user... " />
+            <marker date="1538062797217" expanded="true" signature="2242:2297" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="2393:2439" ph="select deptn... dept" />
+            <marker date="1538062797217" expanded="true" signature="2536:2601" ph="select posin... posi" />
+            <marker date="1538062797217" expanded="true" signature="2691:2752" ph="select count... clocking" />
+            <marker date="1538062797217" expanded="true" signature="2848:2887" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="2963:3012" ph="update user... " />
+            <marker date="1538062797217" expanded="true" signature="3090:3228" ph="insert into cadets... " />
+            <marker date="1538062797217" expanded="true" signature="3326:3355" ph="select count... clocking" />
+            <marker date="1538062797217" expanded="true" signature="3326:3387" ph="select count... clocking" />
+            <marker date="1538062797217" expanded="true" signature="3482:3543" ph="select count... clocking" />
+            <marker date="1538062797217" expanded="true" signature="3639:3700" ph="select count... clocking" />
+            <marker date="1538062797217" expanded="true" signature="3775:3793" ph="select * fro... user" />
+            <marker date="1538062797217" expanded="true" signature="3868:3886" ph="select * fro... posi" />
+            <marker date="1538062797217" expanded="true" signature="3981:4025" ph="select sum(b... bonus" />
+            <marker date="1538062797217" expanded="true" signature="4125:4171" ph="select sum(b... bonus" />
+            <marker date="1538062797217" expanded="true" signature="4250:4286" ph="update dept... " />
+            <marker date="1538062797217" expanded="true" signature="4250:4309" ph="update dept... " />
+            <marker date="1538062797217" expanded="true" signature="4384:4443" ph="update posi... " />
+            <marker date="1538062797217" expanded="true" signature="4517:4554" ph="delete from dept... " />
+            <marker date="1538062797217" expanded="true" signature="4629:4666" ph="delete from posi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminDept.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/AdminPay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/web/WEB-INF/jsp/UserMenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SecondDemo/src/com/dh/View/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
           <folding />
         </state>
       </provider>

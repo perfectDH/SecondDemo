@@ -70,7 +70,7 @@
 
     </script>
 </head>
-<body>
+<body background="bg_login.jpg">
 <form action="/Userlogin.action">
     <div class="bigdiv">
         <div class="left">

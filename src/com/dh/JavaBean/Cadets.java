@@ -5,17 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 public class Cadets {
-    //    CREATE TABLE `cadets` (
-//            `cadetsid` int(11) NOT NULL AUTO_INCREMENT,
-//  `cadetsmessage` varchar(255) DEFAULT NULL,
-//  `begindate` datetime DEFAULT NULL,
-//            `uid` int(11) DEFAULT NULL,
-//  `cadetstitle` varchar(255) DEFAULT NULL,
-//  `enddate` datetime DEFAULT NULL,
-//    PRIMARY KEY (`cadetsid`),
-//    KEY `uid` (`uid`),
-//    CONSTRAINT `cadets_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `user` (`uid`)
-//            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
     private Integer cadetsid;
     private String cadetstitle;
     private String cadetsmessage;

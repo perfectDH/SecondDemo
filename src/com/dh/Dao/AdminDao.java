@@ -57,4 +57,27 @@ public interface AdminDao {
     void updateStruts(Integer uid, Integer ustruts);
 
     void saveCadets(Cadets cadets);
+
+    int findBegincstruts(Integer uid);
+
+    int findEndcstruts(Integer uid);
+
+    int findLatecstruts(Integer uid);
+
+    List<User> selectAllUser();
+
+    List<posi> SelectAllPosi();
+
+    Double findupMoney(Integer uid);
+
+    Double findwoenMoney(Integer uid);
+
+
+    void updateDeptname(Dept d);
+
+    void updatePosi(posi p);
+
+    void deleteDept(Integer deptid);
+
+    void deletePosi(Integer posiid);
 }

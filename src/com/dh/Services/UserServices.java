@@ -27,4 +27,8 @@ public interface UserServices {
     int employeeclocking(Integer id);
 
     List<Cadets> SelectCadets(Integer uid);
+
+    List<bonus> selectBonus(Integer uid);
+
+    List<EmployeePay> selectPay(Integer uid);
 }

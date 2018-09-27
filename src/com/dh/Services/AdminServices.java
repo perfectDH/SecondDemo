@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public interface AdminServices {
@@ -46,4 +47,16 @@ public interface AdminServices {
     void updateStruts(User user);
 
     void saveCadets(Cadets cadets);
+
+    List<EmployeePay> selectClocking();
+
+    List<posi> SelectAllPosi();
+
+    void updateDeptname(String updateDeptname, Integer deptid);
+
+    void updatePosi(String updatePosiname, Integer posiid);
+
+    boolean deleteDept(Integer deptid);
+
+    boolean deletePosi(Integer posiid);
 }

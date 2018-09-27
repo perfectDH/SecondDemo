@@ -96,4 +96,50 @@ select * from remuse;
     <insert id="saveCadets" parameterType="Cadets">
         insert into cadets(cadetsmessage,begindate,uid,cadetstitle,enddate) values(#{cadetsmessage},#{begindate},#{uid},#{cadetstitle},#{enddate});
     </insert>
+
+
+    <select id="findBegincstruts" parameterType="int" resultType="int">
+        select count(1) from clocking where uid=#{arg0} and cstruts=1;
+    </select>
+
+    <select id="findEndcstruts" parameterType="int" resultType="int">
+        select count(1) from clocking where uid=#{arg0} and cstruts=2;
+    </select>
+
+    <select id="findLatecstruts" parameterType="int" resultType="int">
+        select count(1) from clocking where uid=#{arg0} and cstruts=3;
+    </select>
+
+    <select id="selectAllUser" resultType="User">
+        select * from user;
+    </select>
+
+    <select id="SelectAllPosi" resultType="posi">
+        select * from posi;
+    </select>
+
+    <select id="findupMoney" parameterType="int" resultType="Double">
+        select sum(bup) from bonus where uid=#{arg0};
+    </select>
+
+
+    <select id="findwoenMoney" parameterType="int" resultType="Double">
+          select sum(bdown) from bonus where uid=#{arg0};
+    </select>
+
+    <update id="updateDeptname" parameterType="Dept">
+        update dept set deptname=#{deptname} where deptid=#{deptid};
+    </update>
+
+    <update id="updatePosi" parameterType="posi">
+        update posi set posiname=#{posiname} where posiid=#{posiid};
+    </update>
+
+    <delete id="deleteDept" parameterType="int">
+        delete from dept where deptid=#{arg0};
+    </delete>
+
+    <delete id="deletePosi" parameterType="int">
+         delete from posi where posiid=#{arg0};
+    </delete>
 </mapper>

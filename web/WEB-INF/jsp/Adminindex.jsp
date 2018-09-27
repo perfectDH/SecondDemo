@@ -192,30 +192,8 @@
 
 <!-- Left side content -->
  <div id="leftSide">
-    <div class="logo"><a href="#"><img src=".....images/logo.png" alt=""/></a></div>
 
-    <div class="sidebarSep mt0"></div>
 
-    <!-- Search widget -->
-    <form action="" class="sidebarSearch">
-        <input type="text" name="search" placeholder="搜索..." id="ac"/>
-        <input type="submit" value=""/>
-    </form>
-
-    <div class="sidebarSep"></div>
-
-    <!-- Next update progress widget -->
-    <div class="nextUpdate">
-        <ul>
-            <li>下次更新时间在:</li>
-            <li>23 小时 14 分</li>
-        </ul>
-        <div class="pWrapper">
-            <div class="progressG" title="78%"></div>
-        </div>
-    </div>
-
-    <div class="sidebarSep"></div>
 
     <!-- Left navigation -->
     <ul id="menu" class="nav">
@@ -393,58 +371,6 @@
 
                     </div>
                 </div>
-                <!-- Purchase info widget -->
-                <div class="widget">
-                    <div class="title">
-                        <img src="images/icons/dark/money.png" alt="" class="titleIcon"/>
-                        <h6>分享财富的项目</h6>
-                        <div class="topIcons">
-                            <a href="#" class="tipS" title="Download statement"><img src="images/icons/downloadTop.png"
-                                                                                     alt=""/></a>
-                            <a href="#" class="tipS" title="Print invoice"><img src="images/icons/printTop.png" alt=""/></a>
-                            <a href="#" class="tipS" title="Edit"><img src="images/icons/editTop.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="newOrder">
-                        <div class="userRow">
-                            <a href="#" title=""><img src="images/user.png" alt="" class="floatL"/></a>
-                            <ul class="leftList">
-                                <li><a href="#" title=""><strong>提供帮助 T-2</strong></a></li>
-                                <li>配对时间：2016-09-25 13:51:02 交易时间：2016-09-25 13:51:40</li>
-                            </ul>
-                            <ul class="rightList">
-                                <li>提供金额：<a href="#" title=""><strong>￥1000</strong></a></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="cLine"></div>
-
-                        <div class="orderRow">
-                            <ul class="leftList">
-                                <li>付款方式:</li>
-                                <li>接受会员:</li>
-                            </ul>
-                            <ul class="rightList pays">
-                                <li><i class="icons bank" title="银行支付"></i><i class="icons alipay ml7"
-                                                                              title="支付宝支付"></i><i
-                                        class="icons wechat ml7" title="微信支付"></i><i class="icons line1 ml7"
-                                                                                     title="线下同城支付"></i></li>
-                                <li><strong class="green">华远网络</strong></li>
-                            </ul>
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="cLine"></div>
-                        <div class="totalAmount"><h6 class="floatL blue">已完成</h6>
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">留言</a></div>
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">详细资料</a></div>
-                            <div class="num" style="margin: 0px 8px 0 0;"><a href="#" class="blueNum">给Ta评价</a></div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
 
             </div>
             <div class="oneTwo">
